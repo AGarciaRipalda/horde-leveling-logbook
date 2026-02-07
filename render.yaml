@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: horde-leveling-logbook
+    env: static
+    buildCommand: null
+    staticPublishPath: ./
