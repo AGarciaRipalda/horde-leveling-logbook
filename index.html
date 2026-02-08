@@ -689,7 +689,7 @@
   </div>
 
   <script>
-    // Embedded data from Excel
+    // Embedded data from Excel (Horde Route)
     const DATA = {
       "introduction": {
         "general_info": [
@@ -698,1132 +698,2380 @@
           "Disclaimer:\nThis info was stolen from many different online resources and content creators. This is what I believe to be the best route based on their collective work and resources.\n\nPublished data on experience per dungeon run is wildly inconsistent. Actual number of runs to reach next level may vary (and for that reason are rarely discussed).\n\nFor best results, the group should be AQ40/Naxx appropriately geared when it goes through the Dark Portal"
         ],
         "xp_table": [
-          { "level": 61, "xp_needed": 494000 },
-          { "level": 62, "xp_needed": 574700 },
-          { "level": 63, "xp_needed": 614400 },
-          { "level": 64, "xp_needed": 650300 },
-          { "level": 65, "xp_needed": 682300 },
-          { "level": 66, "xp_needed": 710200 },
-          { "level": 67, "xp_needed": 734100 },
-          { "level": 68, "xp_needed": 753700 },
-          { "level": 69, "xp_needed": 768900 },
-          { "level": 70, "xp_needed": 779700 }
+          {
+            "level": 61,
+            "xp_needed": 494000
+          },
+          {
+            "level": 62,
+            "xp_needed": 574700
+          },
+          {
+            "level": 63,
+            "xp_needed": 614400
+          },
+          {
+            "level": 64,
+            "xp_needed": 650300
+          },
+          {
+            "level": 65,
+            "xp_needed": 682300
+          },
+          {
+            "level": 66,
+            "xp_needed": 710200
+          },
+          {
+            "level": 67,
+            "xp_needed": 734100
+          },
+          {
+            "level": 68,
+            "xp_needed": 753700
+          },
+          {
+            "level": 69,
+            "xp_needed": 768900
+          },
+          {
+            "level": 70,
+            "xp_needed": 779700
+          }
         ]
       },
       "route": [
         {
+          "id": 1,
+          "type": "travel",
+          "name": "Enter Dark Portal, Set Hearth to Honor Hold",
+          "notes": "Zone: Hellfire Peninsula\nLocation: Honor Hold",
+          "rewards": null
+        },
+        {
+          "id": 2,
+          "type": "dungeon",
+          "name": "The Blood Furnace - 12 times",
+          "notes": "Zone: Hellfire Peninsula\nLocation: Hellfire Citadel",
+          "rewards": null
+        },
+        {
+          "id": 3,
+          "type": "travel",
+          "name": "750 Rep/Clear, 12 runs to Honored",
+          "notes": null,
+          "rewards": null
+        },
+        {
           "id": 4,
-          "type": "milestone",
-          "name": "START 60",
+          "type": "travel",
+          "name": "Run to Zangarmarsh and grab FP",
           "notes": null,
           "rewards": null
         },
         {
           "id": 5,
-          "type": "quest",
-          "name": "Pick up and complete the following travel quests:\n• Through the Dark Portal\n• Arrival in Outland\n• Journey to Trallmar\n• Report to Nazgrel\n• Eradicate the Burning Legion",
-          "notes": "Pre-Quests for Hellfire Ramparts\n\nSet hearthstone to Thrallmar",
-          "rewards": "• 2,400 exp / 250 Thrallmar rep\n• 2,400 exp / 250 Thrallmar rep\n• 2,400 exp / 250 Thrallmar rep\n• 4,750 exp\n• 970 exp / 250 Thrallmar rep"
-        },
-        {
-          "id": 6,
-          "type": "quest",
-          "name": "Felspark Ravine",
-          "notes": "Pre-Quest for Hellfire Rampart\n• Note: This is an open world quest that will be contested, but it is worth it. Spending ~10 minutes at most to get all the mob tags needed with a 5-man group opens up more than 100k free exp (and a bunch of rep) in dungeon quests along our route. Spend 10 minutes now to save 1 hour later.",
-          "rewards": "• 9,800 exp / 250 Thrallmar rep"
-        },
-        {
-          "id": 7,
-          "type": "quest",
-          "name": "Forward Base: Reaver's Fall",
-          "notes": "Pre-Quest for Hellfire Ramparts",
-          "rewards": "• 970 exp / 10 Thrallmar rep"
-        },
-        {
-          "id": 8,
-          "type": "quest",
-          "name": "Weaken the Ramparts",
-          "notes": "Pick up",
-          "rewards": null
-        },
-        {
-          "id": 9,
-          "type": "dungeon",
-          "name": "Hellfire Ramparts",
-          "notes": "Do only one run to complete \"Weaken the Ramparts.\" Do not go back to Thrallmar to turn in quest yet",
-          "rewards": "• 33,105 exp / 630 Thrallmar rep per run"
-        },
-        {
-          "id": 10,
-          "type": "quest",
-          "name": "Dark Tidings",
-          "notes": "Loot from boss in Hellfire Ramparts. Do not go back to Thrallmar to turn in quest yet.",
-          "rewards": null
-        },
-        {
-          "id": 11,
-          "type": "dungeon",
-          "name": "Blood Furance",
-          "notes": "Repeat until you are 5,999/6,000 rep",
-          "rewards": "• 47,641 exp / 750 Thrallmar rep per run"
-        },
-        {
-          "id": 12,
           "type": "travel",
-          "name": "Hearth to Thrallmar",
+          "name": "Run to Shattrath City, set Hearth",
           "notes": null,
           "rewards": null
         },
         {
-          "id": 13,
+          "id": 6,
           "type": "quest",
-          "name": "Weaken the Ramparts",
-          "notes": "Turn in",
-          "rewards": "• 20,100 exp / 350 Thrallmar rep"
+          "name": "A'dal",
+          "notes": "Zone: Shattrath City\nLocation: Terrace of Light\nNPC: Haggard War Veteran",
+          "rewards": null
+        },
+        {
+          "id": 7,
+          "type": "quest",
+          "name": "A'dal",
+          "notes": "Zone: Shattrath City\nLocation: Terrace of Light\nNPC: A'dal",
+          "rewards": null
+        },
+        {
+          "id": 8,
+          "type": "quest",
+          "name": "City of Light",
+          "notes": "Zone: Shattrath City\nLocation: Terrace of Light\nNPC: Khadgar",
+          "rewards": null
+        },
+        {
+          "id": 9,
+          "type": "quest",
+          "name": "City of Light",
+          "notes": "Zone: Shattrath City\nLocation: Terrace of Light\nNPC: Khadgar",
+          "rewards": null
+        },
+        {
+          "id": 10,
+          "type": "quest",
+          "name": "Allegiance to the Aldor",
+          "notes": "Zone: Shattrath City\nLocation: Terrace of Light\nNPC: Khadgar",
+          "rewards": null
+        },
+        {
+          "id": 11,
+          "type": "other",
+          "name": "Allegiance to the Scryers",
+          "notes": "Zone: Shattrath City\nLocation: Terrace of Light\nNPC: Khadgar",
+          "rewards": null
+        },
+        {
+          "id": 12,
+          "type": "quest",
+          "name": "Allegiance to the Aldor/Scryers",
+          "notes": "Zone: Shattrath City\nLocation: Terrace of Light\nNPC: Khadgar",
+          "rewards": null
+        },
+        {
+          "id": 13,
+          "type": "travel",
+          "name": "Fly to Telredor",
+          "notes": "Zone: Zangarmarsh\nLocation: Telredor",
+          "rewards": null
         },
         {
           "id": 14,
-          "type": "quest",
-          "name": "Dark Tidings",
-          "notes": "Turn in (pre-req for The Blood of Life)",
-          "rewards": "• 20,100 exp / 250 Thrallmar rep"
+          "type": "dungeon",
+          "name": "The Slave Pens - Stay until level 65",
+          "notes": "Zone: Zangarmarsh\nLocation: Coilfang Reservoir",
+          "rewards": null
         },
         {
           "id": 15,
           "type": "milestone",
-          "name": "THRALLMAR HONORED",
+          "name": "915 Rep/Clear, will get at least honored",
           "notes": null,
           "rewards": null
         },
         {
           "id": 16,
-          "type": "quest",
-          "name": "Heart of Rage",
-          "notes": "Pick up",
+          "type": "travel",
+          "name": "Hearth to Shattrath",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City",
           "rewards": null
         },
         {
           "id": 17,
-          "type": "quest",
-          "name": "The Blood is Life",
-          "notes": "Pick up",
+          "type": "travel",
+          "name": "Run to Allerian Stronghold and grab FP",
+          "notes": "Zone: Terrokar Forest\nLocation: Allerian Stronghold",
           "rewards": null
         },
         {
           "id": 18,
           "type": "dungeon",
-          "name": "Blood Furnace",
-          "notes": "Repeat until you ding 61",
-          "rewards": "• 47,641 exp per run"
+          "name": "The Mana Tombs - Stay until level 66.",
+          "notes": "Zone: Terrokar Forest\nLocation: Aunchindoun",
+          "rewards": null
         },
         {
           "id": 19,
           "type": "milestone",
-          "name": "DING 61",
+          "name": "990 Rep/Clear, might not hit honored, its ok.",
           "notes": null,
           "rewards": null
         },
         {
           "id": 20,
-          "type": "travel",
-          "name": "Hearth to Thrallmar",
-          "notes": null,
+          "type": "dungeon",
+          "name": "Sethekk Halls - 8 times",
+          "notes": "Zone: Terrokar Forest\nLocation: Aunchindoun",
           "rewards": null
         },
         {
           "id": 21,
-          "type": "quest",
-          "name": "Heart of Rage",
-          "notes": "Turn in",
-          "rewards": "• 20,800 exp / 350 Thrallmar rep"
-        },
-        {
-          "id": 22,
-          "type": "quest",
-          "name": "The Blood is Life",
-          "notes": "Turn in",
-          "rewards": "• 20,800 exp / 350 Thrallmar rep"
-        },
-        {
-          "id": 23,
-          "type": "other",
-          "name": "Falcon Watch",
-          "notes": "Flight path",
-          "rewards": null
-        },
-        {
-          "id": 24,
-          "type": "other",
-          "name": "Cenarion Refuge",
-          "notes": "Set Hearthstone",
-          "rewards": null
-        },
-        {
-          "id": 25,
-          "type": "quest",
-          "name": "Warning the Cenarion Circle",
-          "notes": "Pick up & complete",
-          "rewards": "• 5,400 exp / 75 Cenarion Expedition rep"
-        },
-        {
-          "id": 26,
-          "type": "quest",
-          "name": "Return to the Marsh",
-          "notes": "Pick up & complete",
-          "rewards": "• 5,250 exp / 75 Cenarion Expedition rep"
-        },
-        {
-          "id": 27,
-          "type": "dungeon",
-          "name": "The Underbog",
-          "notes": "Repeat until you are 5,999/6,000 rep and ding 62\n• Kill all Slaves before the Masters\n• Complete the Underbog portion of \"Lost in Action\" and turn in while still 62\n• Note: Save all Sanguine Hibiscus for later for Sporegarr rep, and save Unidentified Plant Parts to donate to guildies or sell on the auction house",
-          "rewards": "• ~ 46,473 exp / 850 Cenarion Expedition rep per run"
-        },
-        {
-          "id": 28,
-          "type": "milestone",
-          "name": "DING 62",
+          "type": "travel",
+          "name": "1139 Rep/Clear, 8 runs to Honored",
           "notes": null,
           "rewards": null
         },
         {
-          "id": 29,
+          "id": 22,
           "type": "other",
-          "name": "Shattrath City",
-          "notes": "Flight path",
+          "name": "Grab the Shadow Lab key, after last boss",
+          "notes": null,
+          "rewards": null
+        },
+        {
+          "id": 23,
+          "type": "travel",
+          "name": "Portal to Stormwind City",
+          "notes": "Zone: Elwyn Forest\nLocation: Stormwind City",
+          "rewards": null
+        },
+        {
+          "id": 24,
+          "type": "travel",
+          "name": "Fly to Darkshire",
+          "notes": "Zone: Duskwood\nLocation: Darkshire",
+          "rewards": null
+        },
+        {
+          "id": 25,
+          "type": "travel",
+          "name": "Run to Karazhan to start Attunement quests",
+          "notes": "Zone: Deadwind Pass\nLocation: Karazhan",
+          "rewards": null
+        },
+        {
+          "id": 26,
+          "type": "quest",
+          "name": "Arcane Disturbances",
+          "notes": "Zone: Deadwind Pass\nLocation: Karazhan\nNPC: Archmage Alturus",
+          "rewards": null
+        },
+        {
+          "id": 27,
+          "type": "quest",
+          "name": "Restless Activity",
+          "notes": "Zone: Deadwind Pass\nLocation: Karazhan\nNPC: Archmage Alturus",
+          "rewards": null
+        },
+        {
+          "id": 28,
+          "type": "quest",
+          "name": "Arcane Disturbances",
+          "notes": "Zone: Deadwind Pass\nLocation: Karazhan",
+          "rewards": null
+        },
+        {
+          "id": 29,
+          "type": "quest",
+          "name": "Restless Activity",
+          "notes": "Zone: Deadwind Pass\nLocation: Karazhan",
           "rewards": null
         },
         {
           "id": 30,
           "type": "quest",
-          "name": "Aldor or Scryer",
-          "notes": "Choose your faction\n• Note: you don't need to follow the summoned add around - you can just wait at quest turn-in\n• Note: turning in Fel Armaments/Arcane Tomes etc. grants Sha'tar reputation up to 5,999/6,000 friendly. You may be able to reduce the number of dungeon runs needed to reach revered if you turn in Aldor/Scryer rep items now. This probably will not make a noticable difference because alot of pre-bis is found in the Sha'tar dungeons so you'll likely be running them anyway",
+          "name": "Arcane Disturbances",
+          "notes": "Zone: Deadwind Pass\nLocation: Karazhan\nNPC: Archmage Alturus",
           "rewards": null
         },
         {
           "id": 31,
-          "type": "other",
-          "name": "Orgrimmar",
-          "notes": "Portal to Org for Class Trainer",
+          "type": "quest",
+          "name": "Restless Activity",
+          "notes": "Zone: Deadwind Pass\nLocation: Karazhan\nNPC: Archmage Alturus",
           "rewards": null
         },
         {
           "id": 32,
-          "type": "other",
-          "name": "Cenarion Refuge",
-          "notes": "Hearth back",
+          "type": "quest",
+          "name": "Contact from Dalaran",
+          "notes": "Zone: Deadwind Pass\nLocation: Karazhan\nNPC: Archmage Alturus",
           "rewards": null
         },
         {
           "id": 33,
-          "type": "quest",
-          "name": "Failed Incursion",
-          "notes": "Pick up & complete",
-          "rewards": "• 1,100 exp / 10 Cenarion Expedition rep"
+          "type": "travel",
+          "name": "Fly to Southshore",
+          "notes": "Zone: Hillsbrad Foothills\nLocation: Southshore",
+          "rewards": null
         },
         {
           "id": 34,
-          "type": "milestone",
-          "name": "CENARION EXPEDITION HONORED",
-          "notes": null,
+          "type": "travel",
+          "name": "Run to the Dalaran Crater",
+          "notes": "Zone: Alterac Mountain\nLocation: Dalaran Crater\nNPC: Archmage Cedric",
           "rewards": null
         },
         {
           "id": 35,
           "type": "quest",
-          "name": "Lost in Action",
-          "notes": "Pick up",
+          "name": "Contact from Dalaran",
+          "notes": "Zone: Alterac Mountain\nLocation: Dalaran Crater\nNPC: Archmage Cedric",
           "rewards": null
         },
         {
           "id": 36,
-          "type": "dungeon",
-          "name": "Slave Pens",
-          "notes": "Do only one run to complete the Slave Pens portion of \"Lost in Action\"\n• Note: Save all Unidentified Plant Parts to donate to guildies or sell on the auction house",
-          "rewards": "• ~ 44,000 exp"
+          "type": "quest",
+          "name": "Khadgar",
+          "notes": "Zone: Alterac Mountain\nLocation: Dalaran Crater\nNPC: Archmage Cedric",
+          "rewards": null
         },
         {
           "id": 37,
-          "type": "dungeon",
-          "name": "The Underbog",
-          "notes": "Repeat until you ding 63. \n• Kill all Slaves before the Masters\n• Complete the Underbog portion of \"Lost in Action\" and turn in while still 62\n• Note: Save all Sanguine Hibiscus for later for Sporegarr rep, and save Unidentified Plant Parts to donate to guildies or sell on the auction house",
-          "rewards": "• 22,000 exp / 500 Cenarion Expedition\n• 45,011 exp per run"
+          "type": "travel",
+          "name": "Hearth to Shattrath",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City",
+          "rewards": null
         },
         {
           "id": 38,
-          "type": "milestone",
-          "name": "DING 63",
-          "notes": null,
+          "type": "quest",
+          "name": "Khadgar",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City\nNPC: Khadgar",
           "rewards": null
         },
         {
           "id": 39,
-          "type": "other",
-          "name": "Stonebreaker Hold",
-          "notes": "Flight path & set hearth",
+          "type": "quest",
+          "name": "Entry Into Karazhan",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City\nNPC: Khadgar",
           "rewards": null
         },
         {
           "id": 40,
-          "type": "other",
-          "name": "Auchindoun",
-          "notes": null,
+          "type": "travel",
+          "name": "Portal to Theramore",
+          "notes": "Zone: Dun Morogh\nLocation: Ironforge",
           "rewards": null
         },
         {
           "id": 41,
-          "type": "dungeon",
-          "name": "Mana Tombs",
-          "notes": "Repeat until you ding 64",
-          "rewards": "• 47, 318 exp / 990 Consortium rep per run"
+          "type": "travel",
+          "name": "Fly to Gadgetzan",
+          "notes": "Zone: Tanaris\nLocation: Gadgetzan",
+          "rewards": null
         },
         {
           "id": 42,
-          "type": "milestone",
-          "name": "DING 64",
-          "notes": null,
+          "type": "travel",
+          "name": "Run to the Caverns of Time",
+          "notes": "Zone: Tanaris\nLocation: Caverns of Time",
           "rewards": null
         },
         {
           "id": 43,
-          "type": "milestone",
-          "name": "THE CONSORTIUM HONORED",
-          "notes": null,
+          "type": "quest",
+          "name": "The Caverns of Time",
+          "notes": "Zone: Tanaris\nLocation: Caverns of Time\nNPC: Andormu",
           "rewards": null
         },
         {
           "id": 44,
-          "type": "other",
-          "name": "Orgrimmar",
-          "notes": "Portal to Org for Class Trainer",
+          "type": "quest",
+          "name": "The Caverns of Time",
+          "notes": "Zone: Tanaris\nLocation: Caverns of Time\nNPC: Andormu",
           "rewards": null
         },
         {
           "id": 45,
-          "type": "other",
-          "name": "Stonebreaker Hold",
-          "notes": "Hearth back",
+          "type": "quest",
+          "name": "The Caverns of Time",
+          "notes": "Zone: Tanaris\nLocation: Caverns of Time\nNPC: Andormu",
           "rewards": null
         },
         {
           "id": 46,
-          "type": "dungeon",
-          "name": "Mana Tombs",
-          "notes": "Repeat until you will ding 65 after you hand in \"Undercutting the Competition,\" \"Safety Is Job One,\" and \"Someone Else's Hard Work Pays Off.\" In other words, if you finish a run and have less than 67,800 exp until level, do not do another run. Instead turn the 3 quests in. If you have more than 67,800 exp until level, do one more run and then turn the quets in",
-          "rewards": "• 44,736 exp / 990 Consortium rep per run"
+          "type": "quest",
+          "name": "Old Hillsbrad",
+          "notes": "Zone: Tanaris\nLocation: Caverns of Time\nNPC: Andormu",
+          "rewards": null
         },
         {
           "id": 47,
-          "type": "quest",
-          "name": "Undercutting the Competition",
-          "notes": "Pick up & complete",
-          "rewards": "• 22,600 exp / 500 Consortium rep"
+          "type": "dungeon",
+          "name": "Old Hillsbrad - 1 time",
+          "notes": "Zone: Tanaris\nLocation: Caverns of Time",
+          "rewards": null
         },
         {
           "id": 48,
           "type": "quest",
-          "name": "Safety Is Job One",
-          "notes": "Pick up & complete",
-          "rewards": "• 22,600 exp / 350 Consortium rep"
+          "name": "Old Hillsbrad",
+          "notes": "Zone: Tanaris\nLocation: Caverns of Time",
+          "rewards": null
         },
         {
           "id": 49,
           "type": "quest",
-          "name": "Someone Else's Hard Work Pays Off",
-          "notes": "Pick up & complete - escort quest inside MT",
-          "rewards": "• 22,600 exp / 500 Consortium rep"
+          "name": "Old Hillsbrad",
+          "notes": "Zone: Tanaris\nLocation: Caverns of Time\nNPC: Erozion",
+          "rewards": null
         },
         {
           "id": 50,
-          "type": "milestone",
-          "name": "DING 65",
-          "notes": null,
+          "type": "quest",
+          "name": "Taretha's Diversion",
+          "notes": "Zone: Old Hillsbrad\nLocation: Caverns of Time\nNPC: Erozion",
           "rewards": null
         },
         {
           "id": 51,
-          "type": "milestone",
-          "name": "THE CONSORTIUM REVERED",
-          "notes": null,
+          "type": "quest",
+          "name": "Taretha's Diversion",
+          "notes": "Zone: Old Hillsbrad\nLocation: Caverns of Time",
           "rewards": null
         },
         {
           "id": 52,
           "type": "quest",
-          "name": "Everything Will Be Alright",
-          "notes": "Pick up & complete",
-          "rewards": "• 23, 300 exp / 500 Sha'tar rep"
+          "name": "Taretha's Diversion",
+          "notes": "Zone: Old Hillsbrad\nLocation: Caverns of Time\nNPC: Thrall",
+          "rewards": null
         },
         {
           "id": 53,
-          "type": "dungeon",
-          "name": "Auchenai Crpyts",
-          "notes": "Do only one run to complete \"Everything Will Be Alright\"",
-          "rewards": "• ?? exp / 750 Lower City rep"
+          "type": "quest",
+          "name": "Escape from Durnholde",
+          "notes": "Zone: Old Hillsbrad\nLocation: Caverns of Time\nNPC: Thrall",
+          "rewards": null
         },
         {
           "id": 54,
-          "type": "dungeon",
-          "name": "Mana Tombs",
-          "notes": "Repeat until you ding 66",
-          "rewards": "• 43,442 exp per run"
+          "type": "quest",
+          "name": "Escape from Durnholde",
+          "notes": "Zone: Old Hillsbrad\nLocation: Caverns of Time",
+          "rewards": null
         },
         {
           "id": 55,
-          "type": "milestone",
-          "name": "DING 66",
-          "notes": null,
+          "type": "quest",
+          "name": "Escape from Durnholde",
+          "notes": "Zone: Old Hillsbrad\nLocation: Caverns of Time\nNPC: Erozion",
           "rewards": null
         },
         {
           "id": 56,
-          "type": "other",
-          "name": "Orgrimmar",
-          "notes": "Portal to Org for Class Trainer",
+          "type": "quest",
+          "name": "Return to Andormu",
+          "notes": "Zone: Old Hillsbrad\nLocation: Caverns of Time\nNPC: Erozion",
           "rewards": null
         },
         {
           "id": 57,
-          "type": "other",
-          "name": "Stonebreaker Hold\n\nShattrath City",
-          "notes": "Hearth back\n\nMages can now cast portals to Shattrath City. Take portal if you have a mage",
+          "type": "quest",
+          "name": "Return to Andormu",
+          "notes": "Zone: Tanaris\nLocation: Caverns of Time\nNPC: Andormu",
           "rewards": null
         },
         {
           "id": 58,
-          "type": "other",
-          "name": "Garadar",
-          "notes": "Flight path",
+          "type": "quest",
+          "name": "The Black Morass",
+          "notes": "Zone: Tanaris\nLocation: Caverns of Time\nNPC: Andormu",
           "rewards": null
         },
         {
           "id": 59,
-          "type": "other",
-          "name": "Pick up and complete the following quests:\n• The Ring of Blood: Brokentoe\n• The Ring of Blood: Rokdar the Sundered Lord\n• The Ring of Blood: Skra'gath\n• The Ring of Blood: The Blue Brothers\n• The Ring of Blood: The Warmaul Champion\n• The Ring of Blood: The Final Challenge",
-          "notes": "Defeat the Ring of Blood",
-          "rewards": "• 17,450 exp\n• 17,450 exp\n• 17,450 exp\n• 17,450 exp\n• 17,450 exp\n• 17,950 exp"
+          "type": "dungeon",
+          "name": "The Black More Ass - 6-7 times",
+          "notes": "Zone: Tanaris\nLocation: Caverns of Time",
+          "rewards": null
         },
         {
           "id": 60,
-          "type": "other",
-          "name": "Stonebreaker Hold",
-          "notes": "Hearth back",
+          "type": "travel",
+          "name": "1110 Rep/Clear, 6-7 runs to Revered.",
+          "notes": null,
           "rewards": null
         },
         {
           "id": 61,
-          "type": "other",
-          "name": "Auchindoun",
-          "notes": null,
+          "type": "quest",
+          "name": "The Black Morass",
+          "notes": "Zone: The Black Morass\nLocation: Caverns of Time\nNPC: Sa'at",
           "rewards": null
         },
         {
           "id": 62,
-          "type": "dungeon",
-          "name": "Sethekk Halls",
-          "notes": "Repeat until you ding 67",
-          "rewards": "• 40, 688 exp / 1139 Lower City rep per run"
+          "type": "quest",
+          "name": "The Black Morass",
+          "notes": "Zone: The Black Morass\nLocation: Caverns of Time\nNPC: Sa'at",
+          "rewards": null
         },
         {
           "id": 63,
           "type": "quest",
-          "name": "Brother Against Brother",
-          "notes": "Pick up & complete\n• Note: Only turn in after 5,999/6,000 rep (at 66)",
-          "rewards": "• 24,600 exp / 350 Lower City rep"
+          "name": "The Opening of the Dark Portal",
+          "notes": "Zone: The Black Morass\nLocation: Caverns of Time\nNPC: Sa'at",
+          "rewards": null
         },
         {
           "id": 64,
           "type": "quest",
-          "name": "Terokk's Legacy",
-          "notes": "Pick up & complete (at 66)",
-          "rewards": "• 24,600 exp"
+          "name": "The Opening of the Dark Portal",
+          "notes": "Zone: The Black Morass\nLocation: Caverns of Time\nNPC: Sa'at",
+          "rewards": null
         },
         {
           "id": 65,
-          "type": "other",
-          "name": "OBTAINED KEY TO SHADOW LABYRINTH",
-          "notes": null,
+          "type": "quest",
+          "name": "The Opening of the Dark Portal",
+          "notes": "Zone: The Black Morass\nLocation: Caverns of Time\nNPC: Sa'at",
           "rewards": null
         },
         {
           "id": 66,
-          "type": "milestone",
-          "name": "DING 67",
-          "notes": null,
+          "type": "quest",
+          "name": "Hero of the Brood",
+          "notes": "Zone: The Black Morass\nLocation: Caverns of Time\nNPC: Sa'at",
           "rewards": null
         },
         {
           "id": 67,
-          "type": "milestone",
-          "name": "LOWER CITY HONORED",
-          "notes": null,
+          "type": "quest",
+          "name": "Hero of the Brood",
+          "notes": "Zone: Tanaris\nLocation: Caverns of Time\nNPC: Andormu",
           "rewards": null
         },
         {
           "id": 68,
-          "type": "dungeon",
-          "name": "Sethekk Halls",
-          "notes": "Repeat until you ding 68",
-          "rewards": "• 34,270 exp per run"
+          "type": "travel",
+          "name": "Hearth to Shattrath",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City",
+          "rewards": null
         },
         {
           "id": 69,
-          "type": "milestone",
-          "name": "DING 68",
-          "notes": null,
+          "type": "travel",
+          "name": "Fly to Allerian Stronghold",
+          "notes": "Zone: Terrokar Forest\nLocation: Allerian Stronghold",
           "rewards": null
         },
         {
           "id": 70,
-          "type": "other",
-          "name": "Stonebreaker Hold\n\nShattrah City",
-          "notes": "Hearth back to Stonebreaker Hold and fly to Shattrath City\n\nMages can now cast portals to Shattrath City. Take portals if you have a mage",
+          "type": "dungeon",
+          "name": "The Shadow Labrynth - 6 times",
+          "notes": "Zone: Terrokar Forest\nLocation: Aunchindoun",
           "rewards": null
         },
         {
           "id": 71,
-          "type": "quest",
-          "name": "Archmage Alturus",
-          "notes": "Pick up in Shattrath City and turn in outside Karazhan",
-          "rewards": null
-        },
-        {
-          "id": 72,
-          "type": "other",
-          "name": "Orgrimmar",
-          "notes": "Portal to Org for Class Trainer",
-          "rewards": null
-        },
-        {
-          "id": 73,
-          "type": "other",
-          "name": "Auction House",
-          "notes": "Buy the following for Shattered Halls key later:\n• 4 fel iron bars\n• 2 arcane dust\n• 4 motes of fire\nLeave in mailbox until needed",
-          "rewards": null
-        },
-        {
-          "id": 74,
-          "type": "other",
-          "name": "Karazhan",
+          "type": "travel",
+          "name": "2012 Rep/Clear, 6 runs to Revered.",
           "notes": null,
           "rewards": null
         },
         {
-          "id": 75,
+          "id": 72,
+          "type": "travel",
+          "name": "Hearth to Shattrath",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City",
+          "rewards": null
+        },
+        {
+          "id": 73,
           "type": "quest",
-          "name": "Archmage Alturus",
-          "notes": "Turn in",
-          "rewards": "• 1,250 exp / 5 Violet Eye rep"
+          "name": "Entry Into Karazhan",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City\nNPC: Khadgar",
+          "rewards": null
+        },
+        {
+          "id": 74,
+          "type": "quest",
+          "name": "The Second and Third Fragments",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City\nNPC: Khadgar",
+          "rewards": null
+        },
+        {
+          "id": 75,
+          "type": "travel",
+          "name": "Fly to Telredor",
+          "notes": "Zone: Zangarmarsh\nLocation: Telredor",
+          "rewards": null
         },
         {
           "id": 76,
-          "type": "quest",
-          "name": "Restless Activity",
-          "notes": "Pick up & complete under Kara",
-          "rewards": "• 12,650 exp / 250 Violet Eye rep"
+          "type": "dungeon",
+          "name": "The Steamvault  - 7 times",
+          "notes": "Zone: Zangarmarsh\nLocation: Coilfang Reservoir",
+          "rewards": null
         },
         {
           "id": 77,
-          "type": "quest",
-          "name": "Arcane Disturbances",
-          "notes": "Pick up & complete under Kara",
-          "rewards": "• 12,650 exp / 250 Violet Eye rep"
+          "type": "travel",
+          "name": "1796 Rep/Clear, 7 runs to Revered.",
+          "notes": null,
+          "rewards": null
         },
         {
           "id": 78,
-          "type": "quest",
-          "name": "Contact from Dalaran",
-          "notes": "Pick up & complete outside Dalaran",
-          "rewards": "• 6,250 exp / 75 Violet Eye rep"
+          "type": "travel",
+          "name": "Run to the Black Temple",
+          "notes": "Zone: Shadowmoon\nLocation: The Black Temple\nNPC: can grab flying if appropriate lvl",
+          "rewards": null
         },
         {
           "id": 79,
-          "type": "quest",
-          "name": "Khadgar",
-          "notes": "Pick up, will complete later",
+          "type": "other",
+          "name": "Kill the Smith to get the quest item",
+          "notes": "Zone: Shadowmoon\nLocation: Ata'mal Terrace\nNPC: Smith Gorlunk",
           "rewards": null
         },
         {
           "id": 80,
           "type": "quest",
-          "name": "Nice Hat....",
-          "notes": "Pick up at Gadgetzhan Graveyard. Complete in OHB and turn in before going back to Outland",
-          "rewards": "• 12,000 exp"
-        },
-        {
-          "id": 81,
-          "type": "other",
-          "name": "Caverns of Time",
+          "name": "Entry Into the Citadel",
           "notes": null,
           "rewards": null
         },
         {
+          "id": 81,
+          "type": "travel",
+          "name": "Fly to Honor Hold",
+          "notes": "Zone: Hellfire Peninsula\nLocation: Honor Hold",
+          "rewards": null
+        },
+        {
           "id": 82,
-          "type": "other",
-          "name": "Pick up and complete the following quests:\n• To the Master's Lair\n• The Caverns of Time",
-          "notes": "Pre-Quests for Old Hillsbrad Foothills\n• Note: you don't need to follow the summon add around - you can just wait at quest turn-in",
-          "rewards": "• 1,150 exp / 10 Keepers of Time rep\n• 1,200 exp / 250 Keepers of Time rep"
+          "type": "quest",
+          "name": "Entry Into the Citadel",
+          "notes": "Zone: Hellfire Peninsula\nLocation: Honor Hold\nNPC: Force Commander Danath Trollbane",
+          "rewards": null
         },
         {
           "id": 83,
-          "type": "other",
-          "name": "ATTUNDED TO OLD HILLSBRAD FOOTHILLS",
-          "notes": null,
+          "type": "quest",
+          "name": "Grand Master Dumphry",
+          "notes": "Zone: Hellfire Peninsula\nLocation: Honor Hold\nNPC: Force Commander Danath Trollbane",
           "rewards": null
         },
         {
           "id": 84,
           "type": "quest",
-          "name": "The Caverns of Time",
-          "notes": "Pick up & complete (same name as previous quest but this one is completed in OHB)",
-          "rewards": "• 1,200 exp / 10 Keepers of Time rep"
+          "name": "Grand Master Dumphry",
+          "notes": "Zone: Hellfire Peninsula\nLocation: Honor Hold\nNPC: Dumphry",
+          "rewards": null
         },
         {
           "id": 85,
           "type": "quest",
-          "name": "Taretha's Diversion",
-          "notes": "Pick up & complete",
-          "rewards": "• 24,000 exp / 1,000 Keepers of Time rep"
+          "name": "Dumphry's Request",
+          "notes": "Zone: Hellfire Peninsula\nLocation: Honor Hold\nNPC: Dumphry",
+          "rewards": null
         },
         {
           "id": 86,
           "type": "quest",
-          "name": "Escape from Durnholde",
-          "notes": "Pick up & complete - escort quest inside OHB",
-          "rewards": "• 24,000 exp / 1,000 Keepers of Time rep"
+          "name": "Dumphry's Request",
+          "notes": "Zone: Hellfire Peninsula\nLocation: Honor Hold\nNPC: Dumphry",
+          "rewards": null
         },
         {
           "id": 87,
           "type": "quest",
-          "name": "Return to Andormu",
-          "notes": "Pick up & complete",
-          "rewards": "• 1,200 exp / 3000 Keepers of Time rep"
+          "name": "Hotter than Hell",
+          "notes": "Zone: Hellfire Peninsula\nLocation: Honor Hold\nNPC: Dumphry",
+          "rewards": null
         },
         {
           "id": 88,
-          "type": "dungeon",
-          "name": "Old Hillsbrad Foothills",
-          "notes": "Do only one run to complete Nice Hat... and the four previous quests, and to attune for Black Morass",
-          "rewards": "?? / 1,100 Keepers of Time rep"
+          "type": "quest",
+          "name": "Hotter than Hell",
+          "notes": "Zone: Hellfire Peninsula\nLocation: Honor Hold",
+          "rewards": null
         },
         {
           "id": 89,
-          "type": "other",
-          "name": "ATTUNDED TO BLACK MORASS",
-          "notes": null,
+          "type": "quest",
+          "name": "Hotter than Hell",
+          "notes": "Zone: Hellfire Peninsula\nLocation: Honor Hold\nNPC: Dumphry",
           "rewards": null
         },
         {
           "id": 90,
-          "type": "quest",
-          "name": "The Black Morass",
-          "notes": "Pick up & complete",
-          "rewards": "• 1,250 exp / 250 Keepers of Time rep"
-        },
-        {
-          "id": 91,
-          "type": "quest",
-          "name": "The Opening of the Dark Portal",
-          "notes": "Pick up & complete",
-          "rewards": "• 25,300 exp / 500 Keepers of Time rep"
-        },
-        {
-          "id": 92,
-          "type": "quest",
-          "name": "Hero of the Brood",
-          "notes": "Pick up & complete",
-          "rewards": "• 1,250 exp / 8,000 Keepers of Time rep"
-        },
-        {
-          "id": 93,
           "type": "dungeon",
-          "name": "Black Morass",
-          "notes": "Do only one run. Will come back later for Karazhan attunement quest chain",
-          "rewards": "• ?? / 1,100 Keepers of Time rep"
-        },
-        {
-          "id": 94,
-          "type": "milestone",
-          "name": "KEEPERS OF TIME HONORED",
+          "name": "The Shattered Halls - 8 times",
           "notes": null,
           "rewards": null
         },
         {
-          "id": 95,
+          "id": 91,
+          "type": "travel",
+          "name": "1604 Rep/Clear, run until revered.",
+          "notes": null,
+          "rewards": null
+        },
+        {
+          "id": 92,
           "type": "other",
-          "name": "Stonebreaker Hold\n\nShattrath City",
-          "notes": "Hearth back and fly to Shattrath\n\nMages can now cast portals to Shattrath City. Take portal if you have a mage",
+          "name": "Level 70, 4/5 keys, 2/3 frags for kara",
+          "notes": null,
+          "rewards": null
+        },
+        {
+          "id": 93,
+          "type": "travel",
+          "name": "Fly to Wildhammer Stronghold",
+          "notes": "Zone: Shadowmoon\nLocation: Wildhammer Stronghold",
+          "rewards": null
+        },
+        {
+          "id": 94,
+          "type": "travel",
+          "name": "Get Flying training",
+          "notes": "Zone: Shadowmoon\nLocation: Wildhammer Stronghold\nNPC: Isa Blusterbrew",
+          "rewards": null
+        },
+        {
+          "id": 95,
+          "type": "travel",
+          "name": "Fly to Area 52 in Netherstorm",
+          "notes": "Zone: Netherstorm\nLocation: Area 52",
           "rewards": null
         },
         {
           "id": 96,
-          "type": "other",
-          "name": "Shattrath City",
-          "notes": "Hand in the quest \"Khadgar\"",
-          "rewards": "• 6,250 exp / 75 Violet Eye rep"
+          "type": "quest",
+          "name": "Assisting the Consortium",
+          "notes": "Zone: Netherstorm\nLocation: Area 52\nNPC: Anchorite Karja",
+          "rewards": null
         },
         {
           "id": 97,
           "type": "quest",
-          "name": "Entry Into Karazhan",
-          "notes": "Pick up & go to Shadow Labyrinth",
-          "rewards": "• 25,300 exp / 250 Violet Eye rep"
+          "name": "Assisting the Consortium",
+          "notes": "Zone: Netherstorm\nLocation: Area 52\nNPC: Nether-Stalker Khay'ji",
+          "rewards": null
         },
         {
           "id": 98,
           "type": "quest",
-          "name": "Trouble at Auchindoun",
-          "notes": "Pick up in Shattrath and complete outside Sethekk Halls entrance",
-          "rewards": "• 9,500 exp / 150 Lower City rep"
+          "name": "Consortium Crystal Collection",
+          "notes": "Zone: Netherstorm\nLocation: Area 52\nNPC: Nether-Stalker Khay'ji",
+          "rewards": null
         },
         {
           "id": 99,
           "type": "quest",
-          "name": "The Codex of Blood",
-          "notes": "Pick up outside Sethekk Halls and complete inside Shadow Labyrinth",
-          "rewards": "• 25, 300 exp / 350 Lower City rep"
+          "name": "Consortium Crystal Collection",
+          "notes": "Zone: Netherstorm\nLocation: Arklon Ruins",
+          "rewards": null
         },
         {
           "id": 100,
           "type": "quest",
-          "name": "Into the Heart of the Labyrinth",
-          "notes": "Pick up inside Shadow Labyrinth and kill Murmur. Turn quest in at Shattrath City after last Shadow Labyrinth run",
+          "name": "Consortium Crystal Collection",
+          "notes": "Zone: Netherstorm\nLocation: Area 52\nNPC: Nether-Stalker Khay'ji",
           "rewards": null
         },
         {
           "id": 101,
           "type": "quest",
-          "name": "The Soul Devices",
-          "notes": "Pick up inside Shadow Labyrinth. Turn quest in at Shattrath City after last Shadow Labyrinth run",
+          "name": "A Heap of Ethereals",
+          "notes": "Zone: Netherstorm\nLocation: Area 52\nNPC: Nether-Stalker Khay'ji",
           "rewards": null
         },
         {
           "id": 102,
-          "type": "dungeon",
-          "name": "Shadow Labyrinth",
-          "notes": "Key is behind Murmur. Complete 6 runs to hit revered\n\nShadow Labyrinth notable loot:\n• Spellstrike Pants recipe\n• Idol of Emerald Queen\n• Adamantine Figurine\n• Sonic Spear\n• Broach of Heightened Potential",
-          "rewards": "• 54,504 exp / 2012 Lower City rep per run"
+          "type": "quest",
+          "name": "A Heap of Ethereals",
+          "notes": "Zone: Netherstorm\nLocation: Area 52",
+          "rewards": null
         },
         {
           "id": 103,
-          "type": "milestone",
-          "name": "LOWER CITY REVERED - HEROICS ATTUNED",
-          "notes": null,
+          "type": "quest",
+          "name": "A Heap of Ethereals",
+          "notes": "Zone: Netherstorm\nLocation: Area 52\nNPC: Nether-Stalker Khay'ji",
           "rewards": null
         },
         {
           "id": 104,
-          "type": "other",
-          "name": "Stonebreaker Hold\n\nShattrath City",
-          "notes": "Hearth back then fly to Shattrath City\n\nMages can now cast portals to Shattrath City. Take portal if you have a mage",
+          "type": "quest",
+          "name": "Warp-Rider Nesaad",
+          "notes": "Zone: Netherstorm\nLocation: Area 52\nNPC: Nether-Stalker Khay'ji",
           "rewards": null
         },
         {
           "id": 105,
           "type": "quest",
-          "name": "Into the Heart of the Labyrinth",
-          "notes": "Turn in",
-          "rewards": "• 25,300 exp / 500 Lower City rep"
+          "name": "Warp-Rider Nesaad",
+          "notes": "Zone: Netherstorm\nLocation: Area 52",
+          "rewards": null
         },
         {
           "id": 106,
           "type": "quest",
-          "name": "The Soul Devices",
-          "notes": "Turn in",
-          "rewards": "• 25, 300 exp / 350 Lower City rep"
+          "name": "Warp-Rider Nesaad",
+          "notes": "Zone: Netherstorm\nLocation: Area 52\nNPC: Nether-Stalker Khay'ji",
+          "rewards": null
         },
         {
           "id": 107,
           "type": "quest",
-          "name": "Entry Into Karazhan",
-          "notes": "Turn in",
-          "rewards": "• 25,300 exp / 250 Violet Eye rep"
+          "name": "Request for Assistance",
+          "notes": "Zone: Netherstorm\nNPC: Nether-Stalker Khay'ji",
+          "rewards": null
         },
         {
           "id": 108,
           "type": "quest",
-          "name": "The Second and Third Fragments",
-          "notes": "Pick up quest",
+          "name": "Request for Assistance",
+          "notes": "Zone: Netherstorm\nLocation: Eco-Dome Midrealm\nNPC: Gahruj",
           "rewards": null
         },
         {
           "id": 109,
-          "type": "other",
-          "name": "Cenarion Refuge",
-          "notes": "Set Hearthstone",
+          "type": "quest",
+          "name": "Rightful Reposession",
+          "notes": "Zone: Netherstorm\nLocation: Eco-Dome Midrealm\nNPC: Gahruj",
           "rewards": null
         },
         {
           "id": 110,
           "type": "quest",
-          "name": "The Warlord's Hideout",
-          "notes": "Pick up & complete quest outside Steamvaults",
-          "rewards": "• 25,300 exp / 500 Cenarion Expedition rep"
+          "name": "Rightful Reposession",
+          "notes": "Zone: Netherstorm\nLocation: Manaforge Duro",
+          "rewards": null
         },
         {
           "id": 111,
           "type": "quest",
-          "name": "Orders from Lady Vash",
-          "notes": "Pick up from random drop within Steamvaults. During trip back to Cenarion Refuge turn in. This will allow you to pick up Coilfang Armaments in Steamvaults moving forward",
-          "rewards": "• 12,650 exp / 500 Cenarion Expedition rep"
+          "name": "Rightful Reposession",
+          "notes": "Zone: Netherstorm\nLocation: Eco-Dome Midrealm\nNPC: Gahruj",
+          "rewards": null
         },
         {
           "id": 112,
-          "type": "dungeon",
-          "name": "Steamvaults",
-          "notes": "• Kill all Slaves before the Masters die\n• Key is in the water before the first boss\n• Complete 7 runs to hit revered\n•Note: Unidentified Plant Parts and Coilfang Armaments will not reduce the # of runs we need to run to hit revered, so we will not bother with them. Donate Unidentified Plant Parts to guildies or sell them on the auction hosue. Turn in Coilfang Armaments if seeking exalted with the Cenerarion Expedition, otherwise just sell on the auction house\n\nSteamvaults notable loot:\n• Incantor's Pauldrons\n• Scintilating Coral Band\n• Serpantcrest Lifestaff\n• Beast Lord Mantle\n• Beast Lord Leggings",
-          "rewards": "• 43,693 exp / 1796 Cenarion Expedition rep per run"
+          "type": "quest",
+          "name": "An Audience with the Prince",
+          "notes": "Zone: Netherstorm\nLocation: Eco-Dome Midrealm\nNPC: Gahruj",
+          "rewards": null
         },
         {
           "id": 113,
-          "type": "milestone",
-          "name": "CENARION EXPEDITION REVERED - HEROICS ATTUNED",
-          "notes": null,
+          "type": "quest",
+          "name": "An Audience with the Prince",
+          "notes": "Zone: Netherstorm\nLocation: Stormspire\nNPC: Image of Nexus-Prince Haramad",
           "rewards": null
         },
         {
           "id": 114,
-          "type": "milestone",
-          "name": "DING 69",
-          "notes": null,
+          "type": "quest",
+          "name": "Triangulation Point One",
+          "notes": "Zone: Netherstorm\nNPC: Image of Nexus-Prince Haramad",
           "rewards": null
         },
         {
           "id": 115,
-          "type": "other",
-          "name": "Shadowmoon Village",
-          "notes": "Flight path",
+          "type": "quest",
+          "name": "Triangulation Point One",
+          "notes": "Zone: Netherstorm\nLocation: Manaforge Ultris",
           "rewards": null
         },
         {
           "id": 116,
           "type": "quest",
-          "name": "Entry Into the Citadel",
-          "notes": "Pick up by killing Smith Gorlunk at left side of Black Temple, and turn in at Thrallmar\n• This is the start of the questline to obtain the Shattered Halls key",
-          "rewards": "• 12,650 exp / 250 Thrallmar rep"
+          "name": "Triangulation Point One",
+          "notes": "Zone: Netherstorm\nNPC: Dealer Hazzin",
+          "rewards": null
         },
         {
           "id": 117,
-          "type": "other",
-          "name": "Thrallmar",
-          "notes": "Get your fel iron bars, arcane dust, and motes of fire out of the mailbox in preperation to complete the next quest",
+          "type": "quest",
+          "name": "Triangulation Point Two",
+          "notes": "Zone: Netherstorm\nNPC: Dealer Hazzin",
           "rewards": null
         },
         {
           "id": 118,
-          "type": "other",
-          "name": "Thrallmar",
-          "notes": "Set Hearthstone",
+          "type": "quest",
+          "name": "Triangulation Point Two",
+          "notes": "Zone: Netherstorm\nLocation: Manaforge Ara",
           "rewards": null
         },
         {
           "id": 119,
           "type": "quest",
-          "name": "Grand Master Rohok",
-          "notes": "Pick up & complete",
-          "rewards": "• 3,150 exp / 25 Thrallmar rep"
+          "name": "Triangulation Point Two",
+          "notes": "Zone: Netherstorm\nLocation: Stormspire\nNPC: Wind Trader Tuluman",
+          "rewards": null
         },
         {
           "id": 120,
           "type": "quest",
-          "name": "Rohok's Request",
-          "notes": "Pick up & complete",
-          "rewards": "• 12,650 exp / 250 Thrallmar rep"
+          "name": "Full Triangle",
+          "notes": "Zone: Netherstorm\nNPC: Wind Trader Tuluman",
+          "rewards": null
         },
         {
           "id": 121,
           "type": "quest",
-          "name": "Hotter Than Hell",
-          "notes": "Pick up & complete by killing a Fel Reaver\n• Note: You DO NOT need to actually kill the Fel Reaver. If there's a dead one on the ground, plunge the quest item into its corpse and yonu will complete the quest",
-          "rewards": "• 15,800 exp / 350 Thrallmar rep"
+          "name": "Full Triangle",
+          "notes": "Zone: Netherstorm",
+          "rewards": null
         },
         {
           "id": 122,
-          "type": "other",
-          "name": "OBTAINED KEY TO SHATTERED HALLS",
-          "notes": null,
+          "type": "quest",
+          "name": "Full Triangle",
+          "notes": "Zone: Netherstorm\nNPC: Image of Nexus-Prince Haramad",
           "rewards": null
         },
         {
           "id": 123,
           "type": "quest",
-          "name": "The Will of the Warchief",
-          "notes": "Pick up & complete (Shattered Halls)",
-          "rewards": "• 25,300 exp / 500 Thrallmar rep"
+          "name": "Special Delivery to Shattrath City",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City\nNPC: Image of Nexus-Prince Haramad",
+          "rewards": null
         },
         {
           "id": 124,
-          "type": "quest",
-          "name": "Pride of the Fel Horde",
-          "notes": "Pick up & complete (Shattered Halls)",
-          "rewards": "• 25,300 exp / 250 Thrallmar rep"
+          "type": "travel",
+          "name": "Hearth to Shattrath",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City",
+          "rewards": null
         },
         {
           "id": 125,
-          "type": "dungeon",
-          "name": "Shattered Halls",
-          "notes": "Complete 6-7 runs to hit revered\n\nShattered Halls notable loot:\n• Spellstrike Hood recipe\n• Beast Lord Handguards\n• Greathelm of the Unbreakable\n• Figurine of the Colossus\n• Runesong Dagger",
-          "rewards": "• 83,788 exp / 1,640 Thrallmar rep per run"
+          "type": "quest",
+          "name": "Special Delivery to Shattrath City",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City\nNPC: A'dal",
+          "rewards": null
         },
         {
           "id": 126,
-          "type": "milestone",
-          "name": "THRALLMAR REVERED - HEROICS ATTUNED",
-          "notes": null,
+          "type": "quest",
+          "name": "How to Break into Arcatraz",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City\nNPC: A'dal",
           "rewards": null
         },
         {
           "id": 127,
-          "type": "milestone",
-          "name": "*** DEALER'S CHOICE *** -- Your group should decide whether to grind Steamvaults, Shattered Halls, or Shadow Labyrinth until 70. Examine your group's pre-bis lists and decide which dungeon is worth running, either because of Exalted reputation rewards or boss drops. The Black Morass is terrible exp per run so the last few runs until revered should be saved until we're level 70 and headed back there to complete Kara attunement (this also saves us an extra trip to and from COT. We're not going to begin the Arcatraz key questline yet because it involves alot of open world questing and traveling to and around Netherstorm is a pain without a flying mount. We'll complete the key questline and the Sha'tar dungeons at level 70 after we've bought flying mounts. Set hearthstone for whichever dungeon hub you choose.",
-          "notes": null,
+          "type": "travel",
+          "name": "Fly back to Area 52",
+          "notes": "Zone: Netherstorm\nLocation: Area 52",
           "rewards": null
         },
         {
           "id": 128,
-          "type": "milestone",
-          "name": "DING 70",
-          "notes": null,
+          "type": "dungeon",
+          "name": "Botanica - 1 run",
+          "notes": "Zone: Netherstorm\nLocation: Tempest Keep",
           "rewards": null
         },
         {
           "id": 129,
-          "type": "other",
-          "name": "Shadowmoon Village",
-          "notes": "Buy flying mount",
+          "type": "dungeon",
+          "name": "The Mechanar - 1 run",
+          "notes": "Zone: Netherstorm\nLocation: Tempest Keep",
           "rewards": null
         },
         {
           "id": 130,
-          "type": "other",
-          "name": "Orgrimmar",
-          "notes": "Portal to Org for Class Trainer",
+          "type": "travel",
+          "name": "Hearth to Shattrath",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City",
           "rewards": null
         },
         {
           "id": 131,
-          "type": "other",
-          "name": "Thrallmar/Cenarion Refuge/Stonebreaker Hold\n\nShattrath City",
-          "notes": "Hearth back\n\nMages can now cast portals to Shattrath City. Take portal if you have a mage",
+          "type": "quest",
+          "name": "How to Break into Arcatraz",
+          "notes": "NPC: A'dal",
           "rewards": null
         },
         {
           "id": 132,
-          "type": "quest",
-          "name": "Assisting the Consortium",
-          "notes": "Pick up & complete in Area 52\n• This is the start of the questline to obtain the Arcatraz Key\n\nNote: If you have a mage, set your hearth to Area 52.",
-          "rewards": "• 10 Consortium rep"
+          "type": "travel",
+          "name": "Fly back to Area 52",
+          "notes": "Zone: Netherstorm\nLocation: Area 52",
+          "rewards": null
         },
         {
           "id": 133,
-          "type": "quest",
-          "name": "Consortium Crystal Collection",
-          "notes": "Pick up & complete",
-          "rewards": "• 250 Consortium rep"
+          "type": "dungeon",
+          "name": "The Arcatraz - 1 run",
+          "notes": "Zone: Netherstorm\nLocation: Tempest Keep",
+          "rewards": null
         },
         {
           "id": 134,
-          "type": "quest",
-          "name": "A Heap of Etherals",
-          "notes": "Pick up & complete",
-          "rewards": "• 250 Consortium rep"
+          "type": "travel",
+          "name": "Hearth to Shattrath",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City",
+          "rewards": null
         },
         {
           "id": 135,
           "type": "quest",
-          "name": "Warp-Raider Nessad",
-          "notes": "Pick up & complete",
-          "rewards": "• 250 Consortium rep"
+          "name": "The Second and Third Fragments",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City\nNPC: Khadgar",
+          "rewards": null
         },
         {
           "id": 136,
           "type": "quest",
-          "name": "Request for Assistance",
-          "notes": "Pick up & complete",
-          "rewards": "• 10 Consortium rep"
+          "name": "The Master's Touch",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City\nNPC: Khadgar",
+          "rewards": null
         },
         {
           "id": 137,
-          "type": "quest",
-          "name": "Rightful Repossession",
-          "notes": "Pick up & complete",
-          "rewards": "• 250 Consortium rep"
+          "type": "travel",
+          "name": "Portal to Theramore",
+          "notes": "Zone: Dun Morogh\nLocation: Ironforge",
+          "rewards": null
         },
         {
           "id": 138,
-          "type": "quest",
-          "name": "An Audience with the Prince",
-          "notes": "Pick up & complete",
-          "rewards": "• 75 Consortium rep"
+          "type": "travel",
+          "name": "Fly to Gadgetzan",
+          "notes": "Zone: Tanaris\nLocation: Gadgetzan",
+          "rewards": null
         },
         {
           "id": 139,
-          "type": "quest",
-          "name": "Triangulation Point One",
-          "notes": "Pick up & complete",
-          "rewards": "• 250 Consortium rep"
+          "type": "travel",
+          "name": "Run to the Caverns of Time",
+          "notes": "Zone: Tanaris\nLocation: Caverns of Time",
+          "rewards": null
         },
         {
           "id": 140,
-          "type": "quest",
-          "name": "Triangulation Point Two",
-          "notes": "Pick up & complete",
-          "rewards": "• 250 Consortium rep"
+          "type": "dungeon",
+          "name": "The Black More Ass - 1 run",
+          "notes": "Zone: Tanaris\nLocation: Caverns of Time",
+          "rewards": null
         },
         {
           "id": 141,
           "type": "quest",
-          "name": "Full Triangle",
-          "notes": "Pick up & complete",
-          "rewards": "• 500 Consortium rep"
+          "name": "The Master's Touch",
+          "notes": "Zone: Tanaris\nLocation: Caverns of Time\nNPC: Medivh",
+          "rewards": null
         },
         {
           "id": 142,
           "type": "quest",
-          "name": "Special Delivery to Shattrath City",
-          "notes": "Pick up in Netherstorm and complete in Shattrath City\n\nNote: if you do not have a mage, set your hearth to Shattrath City",
-          "rewards": "• 1,000 Sha'tar rep"
+          "name": "The Master's Touch",
+          "notes": "Zone: Caverns of Time\nLocation: Black More Ass\nNPC: Medivh",
+          "rewards": null
         },
         {
           "id": 143,
           "type": "quest",
-          "name": "How to Break Into the Arcatraz",
-          "notes": "Pick up quest",
+          "name": "Return to Khadgar",
+          "notes": "Zone: Caverns of Time\nLocation: Black More Ass\nNPC: Medivh",
           "rewards": null
         },
         {
           "id": 144,
-          "type": "other",
-          "name": "Area 52/TK Dungeons",
-          "notes": "Hearth to Area 52 if hearth is set there. Otherwise fly directly to TK dungeons",
+          "type": "travel",
+          "name": "Hearth to Shattrath",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City",
           "rewards": null
         },
         {
           "id": 145,
-          "type": "dungeon",
-          "name": "The Mechanar",
-          "notes": "Top half of key drops off final boss",
-          "rewards": "• 1,150 Sha'tar rep"
+          "type": "quest",
+          "name": "Return to Khadgar",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City\nNPC: Khadgar",
+          "rewards": null
         },
         {
           "id": 146,
-          "type": "dungeon",
-          "name": "The Botanica",
-          "notes": "Bottom half of key drops off final boss",
-          "rewards": "• 1,950 Sha'tar rep"
+          "type": "quest",
+          "name": "The Violet Eye",
+          "notes": "Zone: Terrokar Forest\nLocation: Shattrath City\nNPC: Khadgar",
+          "rewards": null
         },
         {
           "id": 147,
-          "type": "quest",
-          "name": "How to Break Into the Arcatraz",
-          "notes": "Turn in quest",
-          "rewards": "• 1,000 Sha'tar rep"
+          "type": "travel",
+          "name": "Portal to Stormwind City",
+          "notes": "Zone: Elwyn Forest\nLocation: Stormwind City",
+          "rewards": null
         },
         {
           "id": 148,
-          "type": "other",
-          "name": "OBTAINED KEY TO THE ARCATRAZ",
-          "notes": null,
+          "type": "travel",
+          "name": "Fly to Darkshire",
+          "notes": "Zone: Duskwood\nLocation: Darkshire",
           "rewards": null
         },
         {
           "id": 149,
-          "type": "quest",
-          "name": "Harbringer of Doom",
-          "notes": "Pick up & kill final boss of Arcatraz",
+          "type": "travel",
+          "name": "Run to Karazhan to start Attunement quests",
+          "notes": "Zone: Deadwind Pass\nLocation: Karazhan",
           "rewards": null
         },
         {
           "id": 150,
-          "type": "dungeon",
-          "name": "The Arcatraz",
-          "notes": "Key is in voidwalker room",
-          "rewards": "• 1,150 Sha'tar rep"
+          "type": "quest",
+          "name": "The Violet Eye",
+          "notes": "Zone: Deadwind Pass\nLocation: Karazhan\nNPC: Archmage Alturus",
+          "rewards": null
         },
         {
           "id": 151,
           "type": "other",
-          "name": "Shattrath City",
-          "notes": "Hearth/Teleport to Shattrath",
+          "name": "Level 70, 12/15 Heroic Dungeon Unlocked, Flying Mount, Attuned for Karazhan.",
+          "notes": null,
           "rewards": null
         },
         {
           "id": 152,
-          "type": "quest",
-          "name": "Harbringer of Doom",
-          "notes": "Turn in quest",
-          "rewards": "• 1,000 Sha'tar rep"
-        },
-        {
-          "id": 153,
-          "type": "quest",
-          "name": "The Second and Third Fragments",
-          "notes": "Turn in quest",
-          "rewards": "• 350 Violet Eye rep"
-        },
-        {
-          "id": 154,
-          "type": "quest",
-          "name": "The Master's Touch",
-          "notes": "Pick up quest",
-          "rewards": null
-        },
-        {
-          "id": 155,
-          "type": "dungeon",
-          "name": "The Black Morass",
-          "notes": "Run until revered, should be five runs\n\nBlack Morass notable loot:\n• Legplates of the Bold\n• Mantle of Three Terrors\n• Hourglass of the Unraveller\n• Scarab of the Infinite Cycle\n• Mana-etched Crown",
-          "rewards": "• 1,100 Keepers of Time rep"
-        },
-        {
-          "id": 156,
-          "type": "milestone",
-          "name": "KEEPERS OF TIME REVERED - HEROICS ATTUNED",
-          "notes": null,
-          "rewards": null
-        },
-        {
-          "id": 157,
-          "type": "quest",
-          "name": "The Master's Touch",
-          "notes": "Talk to Medievh to complete",
-          "rewards": "• 350 Violet Eye rep"
-        },
-        {
-          "id": 158,
-          "type": "quest",
-          "name": "Return to Khadgar",
-          "notes": "Turn in quest in Shattrath City",
-          "rewards": "• 500 Violet Eye rep"
-        },
-        {
-          "id": 159,
           "type": "other",
-          "name": "ATTUNED TO KARAZHAN",
-          "notes": null,
-          "rewards": null
-        },
-        {
-          "id": 160,
-          "type": "dungeon",
-          "name": "*** DEALER'S CHOICE *** -- If you haven't been turning in Fel Armaments/Arcane Tomes etc., you should be around 4,750/6,000 into friendly with the Sha'tar. You have three options to increase your reputation to revered:\n\n• run the Mechanar for 1,150 Sha'tar rep per run\n• run the Botanica for 1,950 Sha'tar rep per run\n• run the Arcatraz for 1,150 Sha'tar rep per run\n\nYou should look at your group's pre-bis list and decide which dungeons to run. Repeat until you reach revered",
-          "notes": "The Mechanar notable loot:\n• Cosmic Lifeband\n• Manual of the Necromancer\n• Jade Skull Breastplate\n• Beast Lord Helm\n• Incantor's Cowl\n• Abacus of Violent Odds\n\nThe Botanica notable loot:\n• Whitemend Hood recipe\n• Beast Lord Curiass\n• Incantor's Robes\n• Aeigis of the Sunbird\n• Warhelm of the Bold\n\nThe Arcatraz notable loot:\n• Whitemend Pants recipe\n• Breastplate of the Bold\n• Sigil-laced Boots\n• Lamp of Peaceful Radiance\n• Belt of Depravity",
-          "rewards": null
-        },
-        {
-          "id": 161,
-          "type": "milestone",
-          "name": "THE SHA'TAR REVERED - HEROICS ATTUNED",
-          "notes": null,
-          "rewards": null
-        },
-        {
-          "id": 163,
-          "type": "milestone",
-          "name": "*** Week 1 Nightbane Attunement *** \n\nYou must be honored with the Violet Eye to begin the Nightbane attunement. At this point, you should be around 2,355/3000 into neutral. To get to honored, run a full Karazhan run but SKIP SHADE OF ARAN (~6,000 Violet Eye rep). During that run, complete the following quests that can be found in and around Karazhan:\n\n• The Violet Eye (75 Violet Eye rep)\n• Assessing the Situation (250 Violet Eye rep)\n• Keanna's Log (250 Violet Eye rep)\n• A Demonic Presence (250 Violet Eye rep)\n• The New Directive (3,000 Violet Eye rep)\n\nNow that you're honored, go outside and pick up the quest \"Medivh's Journal.\" Go back inside to complete the quest (250 Violet Eye rep), and complete the following quests that involve talking to NPCs in Karazhan:\n\n• In Good Hands (10Violet Eye rep)\n• Kamis (10 Violet Eye rep)\n\nNext, pick up the quest \"The Shade of Aran\" and complete it by killing the Shade of Aran (250 Violet Eye rep). \n\nBefore zoning out, pick up and complete the quest \"The Master's Terrace.\"\n\nGo outside to turn in the quest \"The Master's Terrace\" (250 Violet Eye rep).\n\nDrop raid, and pick up and complete the quest \"Digging up the Past\" (250 Violet Eye rep).\n\nPick up the quest \"A Colleague's Aid\" and turn it in at Area 52 (75 Violet Eye rep).\n\nPick up the quest \"Kalynna's Request\" in Area 52. This requires you to kill the first bosses in both Heroic Shattered Halls and Heroic Sethekk Halls. Return to Area 52 to turn the quest in (250 Violet Eye rep).\n\nFinally, pick up the quest \"Nightbane\" in Area 52. Go back to Karazhan as part of a raid, summon and kill Nightbane, loot the Faint Arcane Essence from his corpse, and turn the quest in outside to receive the Blackened Urn to summon Nightbane each week (3,000 Violet Eye rep).\n\n*** Closing Thoughts on Nightbane ***\n\nI recommend completing the Karazhan run (sans Nightbane) on your team's first raid night. I also recommend that each member of the 10-man team complete the questchain together so that more people can summon Nightbane and you're not reliant on one or two people always showing up to kill Nightbane. Between raid night 1 and raid night 2, the 10-man team should split into 2 teams of 5 and go run both Heroic Shattered Halls and Heroic Sethekk Halls to complete the Nightbane pre-quest. Finally, I recommend that the full 25-man raid team kill Gruul's Lair and Magtharidon's Lair on raid night 2, and then your team go back into Karazhan after to kill Nightbane.\n\nCongratulations, you've beaten WOW TBC Anniverary Phase 1 in less than a week.",
-          "notes": null,
+          "name": "Botanica runs till revered with Sha'tar",
+          "notes": "Zone: Netherstorm\nLocation: Tempest Keep",
           "rewards": null
         }
+      ]
+    };
+
+    // State management
+    let completedTasks = new Set();
+    let currentFilter = 'all';
+    let searchQuery = '';
+
+    // Load saved progress
+    function loadProgress() {
+      const saved = localStorage.getItem('tbc-leveling-progress-horde');
+      if (saved) {
+        completedTasks = new Set(JSON.parse(saved));
+      }
+    }
+
+    // Save progress
+    function saveProgress() {
+      localStorage.setItem('tbc-leveling-progress-horde', JSON.stringify([...completedTasks]));
+    }
+
+    // Toggle task completion
+    function toggleTask(taskId) {
+      if (completedTasks.has(taskId)) {
+        completedTasks.delete(taskId);
+      } else {
+        completedTasks.add(taskId);
+      }
+      saveProgress();
+      renderTasks();
+      updateStats();
+    }
+
+    // Render tasks
+    function renderTasks() {
+      const taskList = document.getElementById('task-list');
+      taskList.innerHTML = '';
+
+      if (!DATA || !DATA.route) {
+        taskList.innerHTML = '<div class="error">Error: No data loaded</div>';
+        return;
+      }
+
+      const filteredTasks = DATA.route.filter(task => {
+        const matchesFilter = currentFilter === 'all' || task.type === currentFilter;
+        const matchesSearch = searchQuery === '' ||
+          (task.name && task.name.toLowerCase().includes(searchQuery.toLowerCase())) ||
+          (task.notes && task.notes.toLowerCase().includes(searchQuery.toLowerCase()));
+        return matchesFilter && matchesSearch;
+      });
+
+      console.log(`[TBC] Rendering ${filteredTasks.length} tasks`);
+
+      filteredTasks.forEach(task => {
+        const taskEl = document.createElement('div');
+        taskEl.className = `task-item ${task.type} ${completedTasks.has(task.id) ? 'completed' : ''}`;
+
+        const checkbox = document.createElement('div');
+        checkbox.className = `checkbox ${completedTasks.has(task.id) ? 'checked' : ''}`;
+        checkbox.setAttribute('data-task-id', task.id);
+
+        const typeLabel = document.createElement('span');
+        typeLabel.className = `task-type ${task.type}`;
+        typeLabel.textContent = task.type;
+
+        const taskName = document.createElement('div');
+        taskName.className = 'task-name';
+        taskName.textContent = task.name;
+
+        const taskContent = document.createElement('div');
+        taskContent.className = 'task-content';
+        taskContent.appendChild(typeLabel);
+        taskContent.appendChild(taskName);
+
+        if (task.notes) {
+          const notes = document.createElement('div');
+          notes.className = 'task-notes';
+          notes.textContent = task.notes;
+          taskContent.appendChild(notes);
+        }
+
+        if (task.rewards) {
+          const rewards = document.createElement('div');
+          rewards.className = 'task-rewards';
+          rewards.textContent = '💰 ' + task.rewards;
+          taskContent.appendChild(rewards);
+        }
+
+        const taskHeader = document.createElement('div');
+        taskHeader.className = 'task-header';
+        taskHeader.appendChild(checkbox);
+        taskHeader.appendChild(taskContent);
+
+        taskEl.appendChild(taskHeader);
+        taskList.appendChild(taskEl);
+      });
+
+      console.log(`[TBC] Rendered ${filteredTasks.length} tasks successfully`);
+    }
+
+    // Update statistics
+    function updateStats() {
+      if (!DATA || !DATA.route) return;
+
+      const total = DATA.route.length;
+      const completed = completedTasks.size;
+      const percent = Math.round((completed / total) * 100);
+      const estimatedLevel = 60 + Math.floor((completed / total) * 10);
+
+      document.getElementById('progress-percent').textContent = percent + '%';
+      document.getElementById('tasks-completed').textContent = `${completed}/${total}`;
+      document.getElementById('estimated-level').textContent = estimatedLevel > 70 ? 70 : estimatedLevel;
+    }
+
+    // Render info sections
+    function renderInfoSections() {
+      if (!DATA || !DATA.introduction) return;
+
+      const infoPanel = document.getElementById('info-panel');
+      // Keep title, clear rest
+      const title = infoPanel.querySelector('.panel-title');
+      infoPanel.innerHTML = '';
+      infoPanel.appendChild(title);
+
+      const intro = DATA.introduction;
+
+      // Handle array of strings (general_info)
+      if (intro.general_info && Array.isArray(intro.general_info)) {
+        const section = document.createElement('div');
+        section.className = 'info-section';
+        section.innerHTML = '<h3>General Information</h3>';
+        const ul = document.createElement('ul');
+        intro.general_info.forEach(info => {
+          const li = document.createElement('li');
+          li.textContent = info;
+          ul.appendChild(li);
+        });
+        section.appendChild(ul);
+        infoPanel.appendChild(section);
+      }
+    }
+
+    // XP Table data (fallback/embedded)
+    const XP_TABLE = {
+      61: 494000,
+      62: 574700,
+      63: 614400,
+      64: 650300,
+      65: 682300,
+      66: 710200,
+      67: 734100,
+      68: 753700,
+      69: 768900,
+      70: 779700
+    };
+
+    // Calculate XP
+    function calculateXP() {
+      const currentLevel = parseInt(document.getElementById('current-level').value) || 60;
+      const targetLevel = parseInt(document.getElementById('target-level').value) || 70;
+
+      let totalXP = 0;
+      for (let level = currentLevel + 1; level <= targetLevel; level++) {
+        totalXP += XP_TABLE[level] || 0;
+      }
+
+      document.getElementById('xp-needed').textContent = totalXP.toLocaleString();
+    }
+
+    // Render XP table
+    function renderXPTable() {
+      const tbody = document.getElementById('xp-table-body');
+      tbody.innerHTML = '';
+
+      for (let level = 61; level <= 70; level++) {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+                    <td>${level}</td>
+                    <td>${XP_TABLE[level].toLocaleString()}</td>
+                `;
+        tbody.appendChild(row);
+      }
+    }
+
+    // Setup filters
+    function setupFilters() {
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentFilter = btn.dataset.filter;
+          renderTasks();
+        });
+      });
+    }
+
+    // Setup search
+    function setupSearch() {
+      document.getElementById('search-box').addEventListener('input', (e) => {
+        searchQuery = e.target.value;
+        renderTasks();
+      });
+    }
+
+    // Setup calculator
+    function setupCalculator() {
+      document.getElementById('current-level').addEventListener('input', calculateXP);
+      document.getElementById('target-level').addEventListener('input', calculateXP);
+    }
+
+    // Setup event delegation for checkboxes
+    function setupCheckboxDelegation() {
+      document.addEventListener('click', function (event) {
+        const checkbox = event.target.closest('.checkbox');
+        if (checkbox) {
+          const taskId = parseInt(checkbox.getAttribute('data-task-id'));
+          if (!isNaN(taskId)) {
+            console.log('[TBC] Checkbox clicked, Task ID:', taskId);
+            toggleTask(taskId);
+          }
+        }
+      });
+    }
+
+    // Initialize app directly
+    function initApp() {
+      console.log('[TBC] Initializing App with embedded Horde data...');
+      loadProgress();
+      renderTasks();
+      updateStats();
+      renderInfoSections();
+      renderXPTable();
+      setupFilters();
+      setupSearch();
+      setupCalculator();
+      setupCheckboxDelegation();
+      calculateXP(); // Initial calculation
+    }
+
+    // Run when DOM is ready
+    document.addEventListener('DOMContentLoaded', initApp);
+    "name": "Heart of Rage",
+      "notes": "Pick up",
+        "rewards": null
+        },
+    {
+      "id": 17,
+        "type": "quest",
+          "name": "The Blood is Life",
+            "notes": "Pick up",
+              "rewards": null
+    },
+    {
+      "id": 18,
+        "type": "dungeon",
+          "name": "Blood Furnace",
+            "notes": "Repeat until you ding 61",
+              "rewards": "• 47,641 exp per run"
+    },
+    {
+      "id": 19,
+        "type": "milestone",
+          "name": "DING 61",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 20,
+        "type": "travel",
+          "name": "Hearth to Thrallmar",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 21,
+        "type": "quest",
+          "name": "Heart of Rage",
+            "notes": "Turn in",
+              "rewards": "• 20,800 exp / 350 Thrallmar rep"
+    },
+    {
+      "id": 22,
+        "type": "quest",
+          "name": "The Blood is Life",
+            "notes": "Turn in",
+              "rewards": "• 20,800 exp / 350 Thrallmar rep"
+    },
+    {
+      "id": 23,
+        "type": "other",
+          "name": "Falcon Watch",
+            "notes": "Flight path",
+              "rewards": null
+    },
+    {
+      "id": 24,
+        "type": "other",
+          "name": "Cenarion Refuge",
+            "notes": "Set Hearthstone",
+              "rewards": null
+    },
+    {
+      "id": 25,
+        "type": "quest",
+          "name": "Warning the Cenarion Circle",
+            "notes": "Pick up & complete",
+              "rewards": "• 5,400 exp / 75 Cenarion Expedition rep"
+    },
+    {
+      "id": 26,
+        "type": "quest",
+          "name": "Return to the Marsh",
+            "notes": "Pick up & complete",
+              "rewards": "• 5,250 exp / 75 Cenarion Expedition rep"
+    },
+    {
+      "id": 27,
+        "type": "dungeon",
+          "name": "The Underbog",
+            "notes": "Repeat until you are 5,999/6,000 rep and ding 62\n• Kill all Slaves before the Masters\n• Complete the Underbog portion of \"Lost in Action\" and turn in while still 62\n• Note: Save all Sanguine Hibiscus for later for Sporegarr rep, and save Unidentified Plant Parts to donate to guildies or sell on the auction house",
+              "rewards": "• ~ 46,473 exp / 850 Cenarion Expedition rep per run"
+    },
+    {
+      "id": 28,
+        "type": "milestone",
+          "name": "DING 62",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 29,
+        "type": "other",
+          "name": "Shattrath City",
+            "notes": "Flight path",
+              "rewards": null
+    },
+    {
+      "id": 30,
+        "type": "quest",
+          "name": "Aldor or Scryer",
+            "notes": "Choose your faction\n• Note: you don't need to follow the summoned add around - you can just wait at quest turn-in\n• Note: turning in Fel Armaments/Arcane Tomes etc. grants Sha'tar reputation up to 5,999/6,000 friendly. You may be able to reduce the number of dungeon runs needed to reach revered if you turn in Aldor/Scryer rep items now. This probably will not make a noticable difference because alot of pre-bis is found in the Sha'tar dungeons so you'll likely be running them anyway",
+              "rewards": null
+    },
+    {
+      "id": 31,
+        "type": "other",
+          "name": "Orgrimmar",
+            "notes": "Portal to Org for Class Trainer",
+              "rewards": null
+    },
+    {
+      "id": 32,
+        "type": "other",
+          "name": "Cenarion Refuge",
+            "notes": "Hearth back",
+              "rewards": null
+    },
+    {
+      "id": 33,
+        "type": "quest",
+          "name": "Failed Incursion",
+            "notes": "Pick up & complete",
+              "rewards": "• 1,100 exp / 10 Cenarion Expedition rep"
+    },
+    {
+      "id": 34,
+        "type": "milestone",
+          "name": "CENARION EXPEDITION HONORED",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 35,
+        "type": "quest",
+          "name": "Lost in Action",
+            "notes": "Pick up",
+              "rewards": null
+    },
+    {
+      "id": 36,
+        "type": "dungeon",
+          "name": "Slave Pens",
+            "notes": "Do only one run to complete the Slave Pens portion of \"Lost in Action\"\n• Note: Save all Unidentified Plant Parts to donate to guildies or sell on the auction house",
+              "rewards": "• ~ 44,000 exp"
+    },
+    {
+      "id": 37,
+        "type": "dungeon",
+          "name": "The Underbog",
+            "notes": "Repeat until you ding 63. \n• Kill all Slaves before the Masters\n• Complete the Underbog portion of \"Lost in Action\" and turn in while still 62\n• Note: Save all Sanguine Hibiscus for later for Sporegarr rep, and save Unidentified Plant Parts to donate to guildies or sell on the auction house",
+              "rewards": "• 22,000 exp / 500 Cenarion Expedition\n• 45,011 exp per run"
+    },
+    {
+      "id": 38,
+        "type": "milestone",
+          "name": "DING 63",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 39,
+        "type": "other",
+          "name": "Stonebreaker Hold",
+            "notes": "Flight path & set hearth",
+              "rewards": null
+    },
+    {
+      "id": 40,
+        "type": "other",
+          "name": "Auchindoun",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 41,
+        "type": "dungeon",
+          "name": "Mana Tombs",
+            "notes": "Repeat until you ding 64",
+              "rewards": "• 47, 318 exp / 990 Consortium rep per run"
+    },
+    {
+      "id": 42,
+        "type": "milestone",
+          "name": "DING 64",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 43,
+        "type": "milestone",
+          "name": "THE CONSORTIUM HONORED",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 44,
+        "type": "other",
+          "name": "Orgrimmar",
+            "notes": "Portal to Org for Class Trainer",
+              "rewards": null
+    },
+    {
+      "id": 45,
+        "type": "other",
+          "name": "Stonebreaker Hold",
+            "notes": "Hearth back",
+              "rewards": null
+    },
+    {
+      "id": 46,
+        "type": "dungeon",
+          "name": "Mana Tombs",
+            "notes": "Repeat until you will ding 65 after you hand in \"Undercutting the Competition,\" \"Safety Is Job One,\" and \"Someone Else's Hard Work Pays Off.\" In other words, if you finish a run and have less than 67,800 exp until level, do not do another run. Instead turn the 3 quests in. If you have more than 67,800 exp until level, do one more run and then turn the quets in",
+              "rewards": "• 44,736 exp / 990 Consortium rep per run"
+    },
+    {
+      "id": 47,
+        "type": "quest",
+          "name": "Undercutting the Competition",
+            "notes": "Pick up & complete",
+              "rewards": "• 22,600 exp / 500 Consortium rep"
+    },
+    {
+      "id": 48,
+        "type": "quest",
+          "name": "Safety Is Job One",
+            "notes": "Pick up & complete",
+              "rewards": "• 22,600 exp / 350 Consortium rep"
+    },
+    {
+      "id": 49,
+        "type": "quest",
+          "name": "Someone Else's Hard Work Pays Off",
+            "notes": "Pick up & complete - escort quest inside MT",
+              "rewards": "• 22,600 exp / 500 Consortium rep"
+    },
+    {
+      "id": 50,
+        "type": "milestone",
+          "name": "DING 65",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 51,
+        "type": "milestone",
+          "name": "THE CONSORTIUM REVERED",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 52,
+        "type": "quest",
+          "name": "Everything Will Be Alright",
+            "notes": "Pick up & complete",
+              "rewards": "• 23, 300 exp / 500 Sha'tar rep"
+    },
+    {
+      "id": 53,
+        "type": "dungeon",
+          "name": "Auchenai Crpyts",
+            "notes": "Do only one run to complete \"Everything Will Be Alright\"",
+              "rewards": "• ?? exp / 750 Lower City rep"
+    },
+    {
+      "id": 54,
+        "type": "dungeon",
+          "name": "Mana Tombs",
+            "notes": "Repeat until you ding 66",
+              "rewards": "• 43,442 exp per run"
+    },
+    {
+      "id": 55,
+        "type": "milestone",
+          "name": "DING 66",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 56,
+        "type": "other",
+          "name": "Orgrimmar",
+            "notes": "Portal to Org for Class Trainer",
+              "rewards": null
+    },
+    {
+      "id": 57,
+        "type": "other",
+          "name": "Stonebreaker Hold\n\nShattrath City",
+            "notes": "Hearth back\n\nMages can now cast portals to Shattrath City. Take portal if you have a mage",
+              "rewards": null
+    },
+    {
+      "id": 58,
+        "type": "other",
+          "name": "Garadar",
+            "notes": "Flight path",
+              "rewards": null
+    },
+    {
+      "id": 59,
+        "type": "other",
+          "name": "Pick up and complete the following quests:\n• The Ring of Blood: Brokentoe\n• The Ring of Blood: Rokdar the Sundered Lord\n• The Ring of Blood: Skra'gath\n• The Ring of Blood: The Blue Brothers\n• The Ring of Blood: The Warmaul Champion\n• The Ring of Blood: The Final Challenge",
+            "notes": "Defeat the Ring of Blood",
+              "rewards": "• 17,450 exp\n• 17,450 exp\n• 17,450 exp\n• 17,450 exp\n• 17,450 exp\n• 17,950 exp"
+    },
+    {
+      "id": 60,
+        "type": "other",
+          "name": "Stonebreaker Hold",
+            "notes": "Hearth back",
+              "rewards": null
+    },
+    {
+      "id": 61,
+        "type": "other",
+          "name": "Auchindoun",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 62,
+        "type": "dungeon",
+          "name": "Sethekk Halls",
+            "notes": "Repeat until you ding 67",
+              "rewards": "• 40, 688 exp / 1139 Lower City rep per run"
+    },
+    {
+      "id": 63,
+        "type": "quest",
+          "name": "Brother Against Brother",
+            "notes": "Pick up & complete\n• Note: Only turn in after 5,999/6,000 rep (at 66)",
+              "rewards": "• 24,600 exp / 350 Lower City rep"
+    },
+    {
+      "id": 64,
+        "type": "quest",
+          "name": "Terokk's Legacy",
+            "notes": "Pick up & complete (at 66)",
+              "rewards": "• 24,600 exp"
+    },
+    {
+      "id": 65,
+        "type": "other",
+          "name": "OBTAINED KEY TO SHADOW LABYRINTH",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 66,
+        "type": "milestone",
+          "name": "DING 67",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 67,
+        "type": "milestone",
+          "name": "LOWER CITY HONORED",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 68,
+        "type": "dungeon",
+          "name": "Sethekk Halls",
+            "notes": "Repeat until you ding 68",
+              "rewards": "• 34,270 exp per run"
+    },
+    {
+      "id": 69,
+        "type": "milestone",
+          "name": "DING 68",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 70,
+        "type": "other",
+          "name": "Stonebreaker Hold\n\nShattrah City",
+            "notes": "Hearth back to Stonebreaker Hold and fly to Shattrath City\n\nMages can now cast portals to Shattrath City. Take portals if you have a mage",
+              "rewards": null
+    },
+    {
+      "id": 71,
+        "type": "quest",
+          "name": "Archmage Alturus",
+            "notes": "Pick up in Shattrath City and turn in outside Karazhan",
+              "rewards": null
+    },
+    {
+      "id": 72,
+        "type": "other",
+          "name": "Orgrimmar",
+            "notes": "Portal to Org for Class Trainer",
+              "rewards": null
+    },
+    {
+      "id": 73,
+        "type": "other",
+          "name": "Auction House",
+            "notes": "Buy the following for Shattered Halls key later:\n• 4 fel iron bars\n• 2 arcane dust\n• 4 motes of fire\nLeave in mailbox until needed",
+              "rewards": null
+    },
+    {
+      "id": 74,
+        "type": "other",
+          "name": "Karazhan",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 75,
+        "type": "quest",
+          "name": "Archmage Alturus",
+            "notes": "Turn in",
+              "rewards": "• 1,250 exp / 5 Violet Eye rep"
+    },
+    {
+      "id": 76,
+        "type": "quest",
+          "name": "Restless Activity",
+            "notes": "Pick up & complete under Kara",
+              "rewards": "• 12,650 exp / 250 Violet Eye rep"
+    },
+    {
+      "id": 77,
+        "type": "quest",
+          "name": "Arcane Disturbances",
+            "notes": "Pick up & complete under Kara",
+              "rewards": "• 12,650 exp / 250 Violet Eye rep"
+    },
+    {
+      "id": 78,
+        "type": "quest",
+          "name": "Contact from Dalaran",
+            "notes": "Pick up & complete outside Dalaran",
+              "rewards": "• 6,250 exp / 75 Violet Eye rep"
+    },
+    {
+      "id": 79,
+        "type": "quest",
+          "name": "Khadgar",
+            "notes": "Pick up, will complete later",
+              "rewards": null
+    },
+    {
+      "id": 80,
+        "type": "quest",
+          "name": "Nice Hat....",
+            "notes": "Pick up at Gadgetzhan Graveyard. Complete in OHB and turn in before going back to Outland",
+              "rewards": "• 12,000 exp"
+    },
+    {
+      "id": 81,
+        "type": "other",
+          "name": "Caverns of Time",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 82,
+        "type": "other",
+          "name": "Pick up and complete the following quests:\n• To the Master's Lair\n• The Caverns of Time",
+            "notes": "Pre-Quests for Old Hillsbrad Foothills\n• Note: you don't need to follow the summon add around - you can just wait at quest turn-in",
+              "rewards": "• 1,150 exp / 10 Keepers of Time rep\n• 1,200 exp / 250 Keepers of Time rep"
+    },
+    {
+      "id": 83,
+        "type": "other",
+          "name": "ATTUNDED TO OLD HILLSBRAD FOOTHILLS",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 84,
+        "type": "quest",
+          "name": "The Caverns of Time",
+            "notes": "Pick up & complete (same name as previous quest but this one is completed in OHB)",
+              "rewards": "• 1,200 exp / 10 Keepers of Time rep"
+    },
+    {
+      "id": 85,
+        "type": "quest",
+          "name": "Taretha's Diversion",
+            "notes": "Pick up & complete",
+              "rewards": "• 24,000 exp / 1,000 Keepers of Time rep"
+    },
+    {
+      "id": 86,
+        "type": "quest",
+          "name": "Escape from Durnholde",
+            "notes": "Pick up & complete - escort quest inside OHB",
+              "rewards": "• 24,000 exp / 1,000 Keepers of Time rep"
+    },
+    {
+      "id": 87,
+        "type": "quest",
+          "name": "Return to Andormu",
+            "notes": "Pick up & complete",
+              "rewards": "• 1,200 exp / 3000 Keepers of Time rep"
+    },
+    {
+      "id": 88,
+        "type": "dungeon",
+          "name": "Old Hillsbrad Foothills",
+            "notes": "Do only one run to complete Nice Hat... and the four previous quests, and to attune for Black Morass",
+              "rewards": "?? / 1,100 Keepers of Time rep"
+    },
+    {
+      "id": 89,
+        "type": "other",
+          "name": "ATTUNDED TO BLACK MORASS",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 90,
+        "type": "quest",
+          "name": "The Black Morass",
+            "notes": "Pick up & complete",
+              "rewards": "• 1,250 exp / 250 Keepers of Time rep"
+    },
+    {
+      "id": 91,
+        "type": "quest",
+          "name": "The Opening of the Dark Portal",
+            "notes": "Pick up & complete",
+              "rewards": "• 25,300 exp / 500 Keepers of Time rep"
+    },
+    {
+      "id": 92,
+        "type": "quest",
+          "name": "Hero of the Brood",
+            "notes": "Pick up & complete",
+              "rewards": "• 1,250 exp / 8,000 Keepers of Time rep"
+    },
+    {
+      "id": 93,
+        "type": "dungeon",
+          "name": "Black Morass",
+            "notes": "Do only one run. Will come back later for Karazhan attunement quest chain",
+              "rewards": "• ?? / 1,100 Keepers of Time rep"
+    },
+    {
+      "id": 94,
+        "type": "milestone",
+          "name": "KEEPERS OF TIME HONORED",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 95,
+        "type": "other",
+          "name": "Stonebreaker Hold\n\nShattrath City",
+            "notes": "Hearth back and fly to Shattrath\n\nMages can now cast portals to Shattrath City. Take portal if you have a mage",
+              "rewards": null
+    },
+    {
+      "id": 96,
+        "type": "other",
+          "name": "Shattrath City",
+            "notes": "Hand in the quest \"Khadgar\"",
+              "rewards": "• 6,250 exp / 75 Violet Eye rep"
+    },
+    {
+      "id": 97,
+        "type": "quest",
+          "name": "Entry Into Karazhan",
+            "notes": "Pick up & go to Shadow Labyrinth",
+              "rewards": "• 25,300 exp / 250 Violet Eye rep"
+    },
+    {
+      "id": 98,
+        "type": "quest",
+          "name": "Trouble at Auchindoun",
+            "notes": "Pick up in Shattrath and complete outside Sethekk Halls entrance",
+              "rewards": "• 9,500 exp / 150 Lower City rep"
+    },
+    {
+      "id": 99,
+        "type": "quest",
+          "name": "The Codex of Blood",
+            "notes": "Pick up outside Sethekk Halls and complete inside Shadow Labyrinth",
+              "rewards": "• 25, 300 exp / 350 Lower City rep"
+    },
+    {
+      "id": 100,
+        "type": "quest",
+          "name": "Into the Heart of the Labyrinth",
+            "notes": "Pick up inside Shadow Labyrinth and kill Murmur. Turn quest in at Shattrath City after last Shadow Labyrinth run",
+              "rewards": null
+    },
+    {
+      "id": 101,
+        "type": "quest",
+          "name": "The Soul Devices",
+            "notes": "Pick up inside Shadow Labyrinth. Turn quest in at Shattrath City after last Shadow Labyrinth run",
+              "rewards": null
+    },
+    {
+      "id": 102,
+        "type": "dungeon",
+          "name": "Shadow Labyrinth",
+            "notes": "Key is behind Murmur. Complete 6 runs to hit revered\n\nShadow Labyrinth notable loot:\n• Spellstrike Pants recipe\n• Idol of Emerald Queen\n• Adamantine Figurine\n• Sonic Spear\n• Broach of Heightened Potential",
+              "rewards": "• 54,504 exp / 2012 Lower City rep per run"
+    },
+    {
+      "id": 103,
+        "type": "milestone",
+          "name": "LOWER CITY REVERED - HEROICS ATTUNED",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 104,
+        "type": "other",
+          "name": "Stonebreaker Hold\n\nShattrath City",
+            "notes": "Hearth back then fly to Shattrath City\n\nMages can now cast portals to Shattrath City. Take portal if you have a mage",
+              "rewards": null
+    },
+    {
+      "id": 105,
+        "type": "quest",
+          "name": "Into the Heart of the Labyrinth",
+            "notes": "Turn in",
+              "rewards": "• 25,300 exp / 500 Lower City rep"
+    },
+    {
+      "id": 106,
+        "type": "quest",
+          "name": "The Soul Devices",
+            "notes": "Turn in",
+              "rewards": "• 25, 300 exp / 350 Lower City rep"
+    },
+    {
+      "id": 107,
+        "type": "quest",
+          "name": "Entry Into Karazhan",
+            "notes": "Turn in",
+              "rewards": "• 25,300 exp / 250 Violet Eye rep"
+    },
+    {
+      "id": 108,
+        "type": "quest",
+          "name": "The Second and Third Fragments",
+            "notes": "Pick up quest",
+              "rewards": null
+    },
+    {
+      "id": 109,
+        "type": "other",
+          "name": "Cenarion Refuge",
+            "notes": "Set Hearthstone",
+              "rewards": null
+    },
+    {
+      "id": 110,
+        "type": "quest",
+          "name": "The Warlord's Hideout",
+            "notes": "Pick up & complete quest outside Steamvaults",
+              "rewards": "• 25,300 exp / 500 Cenarion Expedition rep"
+    },
+    {
+      "id": 111,
+        "type": "quest",
+          "name": "Orders from Lady Vash",
+            "notes": "Pick up from random drop within Steamvaults. During trip back to Cenarion Refuge turn in. This will allow you to pick up Coilfang Armaments in Steamvaults moving forward",
+              "rewards": "• 12,650 exp / 500 Cenarion Expedition rep"
+    },
+    {
+      "id": 112,
+        "type": "dungeon",
+          "name": "Steamvaults",
+            "notes": "• Kill all Slaves before the Masters die\n• Key is in the water before the first boss\n• Complete 7 runs to hit revered\n•Note: Unidentified Plant Parts and Coilfang Armaments will not reduce the # of runs we need to run to hit revered, so we will not bother with them. Donate Unidentified Plant Parts to guildies or sell them on the auction hosue. Turn in Coilfang Armaments if seeking exalted with the Cenerarion Expedition, otherwise just sell on the auction house\n\nSteamvaults notable loot:\n• Incantor's Pauldrons\n• Scintilating Coral Band\n• Serpantcrest Lifestaff\n• Beast Lord Mantle\n• Beast Lord Leggings",
+              "rewards": "• 43,693 exp / 1796 Cenarion Expedition rep per run"
+    },
+    {
+      "id": 113,
+        "type": "milestone",
+          "name": "CENARION EXPEDITION REVERED - HEROICS ATTUNED",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 114,
+        "type": "milestone",
+          "name": "DING 69",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 115,
+        "type": "other",
+          "name": "Shadowmoon Village",
+            "notes": "Flight path",
+              "rewards": null
+    },
+    {
+      "id": 116,
+        "type": "quest",
+          "name": "Entry Into the Citadel",
+            "notes": "Pick up by killing Smith Gorlunk at left side of Black Temple, and turn in at Thrallmar\n• This is the start of the questline to obtain the Shattered Halls key",
+              "rewards": "• 12,650 exp / 250 Thrallmar rep"
+    },
+    {
+      "id": 117,
+        "type": "other",
+          "name": "Thrallmar",
+            "notes": "Get your fel iron bars, arcane dust, and motes of fire out of the mailbox in preperation to complete the next quest",
+              "rewards": null
+    },
+    {
+      "id": 118,
+        "type": "other",
+          "name": "Thrallmar",
+            "notes": "Set Hearthstone",
+              "rewards": null
+    },
+    {
+      "id": 119,
+        "type": "quest",
+          "name": "Grand Master Rohok",
+            "notes": "Pick up & complete",
+              "rewards": "• 3,150 exp / 25 Thrallmar rep"
+    },
+    {
+      "id": 120,
+        "type": "quest",
+          "name": "Rohok's Request",
+            "notes": "Pick up & complete",
+              "rewards": "• 12,650 exp / 250 Thrallmar rep"
+    },
+    {
+      "id": 121,
+        "type": "quest",
+          "name": "Hotter Than Hell",
+            "notes": "Pick up & complete by killing a Fel Reaver\n• Note: You DO NOT need to actually kill the Fel Reaver. If there's a dead one on the ground, plunge the quest item into its corpse and yonu will complete the quest",
+              "rewards": "• 15,800 exp / 350 Thrallmar rep"
+    },
+    {
+      "id": 122,
+        "type": "other",
+          "name": "OBTAINED KEY TO SHATTERED HALLS",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 123,
+        "type": "quest",
+          "name": "The Will of the Warchief",
+            "notes": "Pick up & complete (Shattered Halls)",
+              "rewards": "• 25,300 exp / 500 Thrallmar rep"
+    },
+    {
+      "id": 124,
+        "type": "quest",
+          "name": "Pride of the Fel Horde",
+            "notes": "Pick up & complete (Shattered Halls)",
+              "rewards": "• 25,300 exp / 250 Thrallmar rep"
+    },
+    {
+      "id": 125,
+        "type": "dungeon",
+          "name": "Shattered Halls",
+            "notes": "Complete 6-7 runs to hit revered\n\nShattered Halls notable loot:\n• Spellstrike Hood recipe\n• Beast Lord Handguards\n• Greathelm of the Unbreakable\n• Figurine of the Colossus\n• Runesong Dagger",
+              "rewards": "• 83,788 exp / 1,640 Thrallmar rep per run"
+    },
+    {
+      "id": 126,
+        "type": "milestone",
+          "name": "THRALLMAR REVERED - HEROICS ATTUNED",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 127,
+        "type": "milestone",
+          "name": "*** DEALER'S CHOICE *** -- Your group should decide whether to grind Steamvaults, Shattered Halls, or Shadow Labyrinth until 70. Examine your group's pre-bis lists and decide which dungeon is worth running, either because of Exalted reputation rewards or boss drops. The Black Morass is terrible exp per run so the last few runs until revered should be saved until we're level 70 and headed back there to complete Kara attunement (this also saves us an extra trip to and from COT. We're not going to begin the Arcatraz key questline yet because it involves alot of open world questing and traveling to and around Netherstorm is a pain without a flying mount. We'll complete the key questline and the Sha'tar dungeons at level 70 after we've bought flying mounts. Set hearthstone for whichever dungeon hub you choose.",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 128,
+        "type": "milestone",
+          "name": "DING 70",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 129,
+        "type": "other",
+          "name": "Shadowmoon Village",
+            "notes": "Buy flying mount",
+              "rewards": null
+    },
+    {
+      "id": 130,
+        "type": "other",
+          "name": "Orgrimmar",
+            "notes": "Portal to Org for Class Trainer",
+              "rewards": null
+    },
+    {
+      "id": 131,
+        "type": "other",
+          "name": "Thrallmar/Cenarion Refuge/Stonebreaker Hold\n\nShattrath City",
+            "notes": "Hearth back\n\nMages can now cast portals to Shattrath City. Take portal if you have a mage",
+              "rewards": null
+    },
+    {
+      "id": 132,
+        "type": "quest",
+          "name": "Assisting the Consortium",
+            "notes": "Pick up & complete in Area 52\n• This is the start of the questline to obtain the Arcatraz Key\n\nNote: If you have a mage, set your hearth to Area 52.",
+              "rewards": "• 10 Consortium rep"
+    },
+    {
+      "id": 133,
+        "type": "quest",
+          "name": "Consortium Crystal Collection",
+            "notes": "Pick up & complete",
+              "rewards": "• 250 Consortium rep"
+    },
+    {
+      "id": 134,
+        "type": "quest",
+          "name": "A Heap of Etherals",
+            "notes": "Pick up & complete",
+              "rewards": "• 250 Consortium rep"
+    },
+    {
+      "id": 135,
+        "type": "quest",
+          "name": "Warp-Raider Nessad",
+            "notes": "Pick up & complete",
+              "rewards": "• 250 Consortium rep"
+    },
+    {
+      "id": 136,
+        "type": "quest",
+          "name": "Request for Assistance",
+            "notes": "Pick up & complete",
+              "rewards": "• 10 Consortium rep"
+    },
+    {
+      "id": 137,
+        "type": "quest",
+          "name": "Rightful Repossession",
+            "notes": "Pick up & complete",
+              "rewards": "• 250 Consortium rep"
+    },
+    {
+      "id": 138,
+        "type": "quest",
+          "name": "An Audience with the Prince",
+            "notes": "Pick up & complete",
+              "rewards": "• 75 Consortium rep"
+    },
+    {
+      "id": 139,
+        "type": "quest",
+          "name": "Triangulation Point One",
+            "notes": "Pick up & complete",
+              "rewards": "• 250 Consortium rep"
+    },
+    {
+      "id": 140,
+        "type": "quest",
+          "name": "Triangulation Point Two",
+            "notes": "Pick up & complete",
+              "rewards": "• 250 Consortium rep"
+    },
+    {
+      "id": 141,
+        "type": "quest",
+          "name": "Full Triangle",
+            "notes": "Pick up & complete",
+              "rewards": "• 500 Consortium rep"
+    },
+    {
+      "id": 142,
+        "type": "quest",
+          "name": "Special Delivery to Shattrath City",
+            "notes": "Pick up in Netherstorm and complete in Shattrath City\n\nNote: if you do not have a mage, set your hearth to Shattrath City",
+              "rewards": "• 1,000 Sha'tar rep"
+    },
+    {
+      "id": 143,
+        "type": "quest",
+          "name": "How to Break Into the Arcatraz",
+            "notes": "Pick up quest",
+              "rewards": null
+    },
+    {
+      "id": 144,
+        "type": "other",
+          "name": "Area 52/TK Dungeons",
+            "notes": "Hearth to Area 52 if hearth is set there. Otherwise fly directly to TK dungeons",
+              "rewards": null
+    },
+    {
+      "id": 145,
+        "type": "dungeon",
+          "name": "The Mechanar",
+            "notes": "Top half of key drops off final boss",
+              "rewards": "• 1,150 Sha'tar rep"
+    },
+    {
+      "id": 146,
+        "type": "dungeon",
+          "name": "The Botanica",
+            "notes": "Bottom half of key drops off final boss",
+              "rewards": "• 1,950 Sha'tar rep"
+    },
+    {
+      "id": 147,
+        "type": "quest",
+          "name": "How to Break Into the Arcatraz",
+            "notes": "Turn in quest",
+              "rewards": "• 1,000 Sha'tar rep"
+    },
+    {
+      "id": 148,
+        "type": "other",
+          "name": "OBTAINED KEY TO THE ARCATRAZ",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 149,
+        "type": "quest",
+          "name": "Harbringer of Doom",
+            "notes": "Pick up & kill final boss of Arcatraz",
+              "rewards": null
+    },
+    {
+      "id": 150,
+        "type": "dungeon",
+          "name": "The Arcatraz",
+            "notes": "Key is in voidwalker room",
+              "rewards": "• 1,150 Sha'tar rep"
+    },
+    {
+      "id": 151,
+        "type": "other",
+          "name": "Shattrath City",
+            "notes": "Hearth/Teleport to Shattrath",
+              "rewards": null
+    },
+    {
+      "id": 152,
+        "type": "quest",
+          "name": "Harbringer of Doom",
+            "notes": "Turn in quest",
+              "rewards": "• 1,000 Sha'tar rep"
+    },
+    {
+      "id": 153,
+        "type": "quest",
+          "name": "The Second and Third Fragments",
+            "notes": "Turn in quest",
+              "rewards": "• 350 Violet Eye rep"
+    },
+    {
+      "id": 154,
+        "type": "quest",
+          "name": "The Master's Touch",
+            "notes": "Pick up quest",
+              "rewards": null
+    },
+    {
+      "id": 155,
+        "type": "dungeon",
+          "name": "The Black Morass",
+            "notes": "Run until revered, should be five runs\n\nBlack Morass notable loot:\n• Legplates of the Bold\n• Mantle of Three Terrors\n• Hourglass of the Unraveller\n• Scarab of the Infinite Cycle\n• Mana-etched Crown",
+              "rewards": "• 1,100 Keepers of Time rep"
+    },
+    {
+      "id": 156,
+        "type": "milestone",
+          "name": "KEEPERS OF TIME REVERED - HEROICS ATTUNED",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 157,
+        "type": "quest",
+          "name": "The Master's Touch",
+            "notes": "Talk to Medievh to complete",
+              "rewards": "• 350 Violet Eye rep"
+    },
+    {
+      "id": 158,
+        "type": "quest",
+          "name": "Return to Khadgar",
+            "notes": "Turn in quest in Shattrath City",
+              "rewards": "• 500 Violet Eye rep"
+    },
+    {
+      "id": 159,
+        "type": "other",
+          "name": "ATTUNED TO KARAZHAN",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 160,
+        "type": "dungeon",
+          "name": "*** DEALER'S CHOICE *** -- If you haven't been turning in Fel Armaments/Arcane Tomes etc., you should be around 4,750/6,000 into friendly with the Sha'tar. You have three options to increase your reputation to revered:\n\n• run the Mechanar for 1,150 Sha'tar rep per run\n• run the Botanica for 1,950 Sha'tar rep per run\n• run the Arcatraz for 1,150 Sha'tar rep per run\n\nYou should look at your group's pre-bis list and decide which dungeons to run. Repeat until you reach revered",
+            "notes": "The Mechanar notable loot:\n• Cosmic Lifeband\n• Manual of the Necromancer\n• Jade Skull Breastplate\n• Beast Lord Helm\n• Incantor's Cowl\n• Abacus of Violent Odds\n\nThe Botanica notable loot:\n• Whitemend Hood recipe\n• Beast Lord Curiass\n• Incantor's Robes\n• Aeigis of the Sunbird\n• Warhelm of the Bold\n\nThe Arcatraz notable loot:\n• Whitemend Pants recipe\n• Breastplate of the Bold\n• Sigil-laced Boots\n• Lamp of Peaceful Radiance\n• Belt of Depravity",
+              "rewards": null
+    },
+    {
+      "id": 161,
+        "type": "milestone",
+          "name": "THE SHA'TAR REVERED - HEROICS ATTUNED",
+            "notes": null,
+              "rewards": null
+    },
+    {
+      "id": 163,
+        "type": "milestone",
+          "name": "*** Week 1 Nightbane Attunement *** \n\nYou must be honored with the Violet Eye to begin the Nightbane attunement. At this point, you should be around 2,355/3000 into neutral. To get to honored, run a full Karazhan run but SKIP SHADE OF ARAN (~6,000 Violet Eye rep). During that run, complete the following quests that can be found in and around Karazhan:\n\n• The Violet Eye (75 Violet Eye rep)\n• Assessing the Situation (250 Violet Eye rep)\n• Keanna's Log (250 Violet Eye rep)\n• A Demonic Presence (250 Violet Eye rep)\n• The New Directive (3,000 Violet Eye rep)\n\nNow that you're honored, go outside and pick up the quest \"Medivh's Journal.\" Go back inside to complete the quest (250 Violet Eye rep), and complete the following quests that involve talking to NPCs in Karazhan:\n\n• In Good Hands (10Violet Eye rep)\n• Kamis (10 Violet Eye rep)\n\nNext, pick up the quest \"The Shade of Aran\" and complete it by killing the Shade of Aran (250 Violet Eye rep). \n\nBefore zoning out, pick up and complete the quest \"The Master's Terrace.\"\n\nGo outside to turn in the quest \"The Master's Terrace\" (250 Violet Eye rep).\n\nDrop raid, and pick up and complete the quest \"Digging up the Past\" (250 Violet Eye rep).\n\nPick up the quest \"A Colleague's Aid\" and turn it in at Area 52 (75 Violet Eye rep).\n\nPick up the quest \"Kalynna's Request\" in Area 52. This requires you to kill the first bosses in both Heroic Shattered Halls and Heroic Sethekk Halls. Return to Area 52 to turn the quest in (250 Violet Eye rep).\n\nFinally, pick up the quest \"Nightbane\" in Area 52. Go back to Karazhan as part of a raid, summon and kill Nightbane, loot the Faint Arcane Essence from his corpse, and turn the quest in outside to receive the Blackened Urn to summon Nightbane each week (3,000 Violet Eye rep).\n\n*** Closing Thoughts on Nightbane ***\n\nI recommend completing the Karazhan run (sans Nightbane) on your team's first raid night. I also recommend that each member of the 10-man team complete the questchain together so that more people can summon Nightbane and you're not reliant on one or two people always showing up to kill Nightbane. Between raid night 1 and raid night 2, the 10-man team should split into 2 teams of 5 and go run both Heroic Shattered Halls and Heroic Sethekk Halls to complete the Nightbane pre-quest. Finally, I recommend that the full 25-man raid team kill Gruul's Lair and Magtharidon's Lair on raid night 2, and then your team go back into Karazhan after to kill Nightbane.\n\nCongratulations, you've beaten WOW TBC Anniverary Phase 1 in less than a week.",
+            "notes": null,
+              "rewards": null
+    }
       ]
     };
 
